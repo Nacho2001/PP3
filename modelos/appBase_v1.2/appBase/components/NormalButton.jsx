@@ -1,8 +1,10 @@
+import { Text, Button } from "react-native";
 const NormalButton = () => {
     return (
-        <button className="button">
-            Cambio Ahora!!
-        </button>
+        // Etiqueta de boton debe ir en "title" no como string suelto
+        <Button
+        title="Cambio ahora!">
+        </Button>
     )
 }
 

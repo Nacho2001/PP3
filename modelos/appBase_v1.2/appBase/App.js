@@ -20,8 +20,8 @@ export default function App() {
   }
   return (
     <View style={{"marginTop": "50px", "marginLeft":"50%"}}>
-      <Text className="text">{texto}</Text>
-      <NormalButton className="button"/>
+      {/*<Text>{texto}</Text>*/}
+      <NormalButton style={{"height": "50px", "width":"100px"}}/>
     </View>
   );
 }
