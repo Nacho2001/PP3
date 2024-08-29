@@ -19,8 +19,8 @@ export default function App() {
     texto = `No se ha leido ningún color desde Firestore`
   }
   return (
-    <View style={{"marginTop": "50px", "marginLeft":"50%"}}>
-      {/*<Text>{texto}</Text>*/}
+    <View style={{"marginTop": "50px"}}>
+      <Text>{texto}</Text>
       <NormalButton style={{"height": "50px", "width":"100px"}}/>
     </View>
   );

@@ -3,7 +3,7 @@ const NormalButton = () => {
     return (
         // Etiqueta de boton debe ir en "title" no como string suelto
         <Button
-        title="Cambio ahora!">
+            title="Cambio ahora!">
         </Button>
     )
 }
