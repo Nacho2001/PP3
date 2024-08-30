@@ -1,7 +1,7 @@
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js";
-import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-analytics.js";
-import { getDatabase, set, ref, push } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-database.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-app.js";
+import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-analytics.js";
+import { getDatabase, set, ref, push } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-database.js";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -27,7 +27,7 @@ let optionsParent = document.getElementById("optionsParent");
 let respuestaCorrectaElem = document.getElementById("respuestaCorrecta");
 
 let options = [];
-let respuestaCorrecta
+let respuestaCorrecta;
 
 function renderOptions() {
     optionsParent.innerHTML = '';
