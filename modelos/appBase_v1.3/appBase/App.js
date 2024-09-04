@@ -4,7 +4,7 @@ import readData from './callbacks/readData';
 import NormalButton from './components/NormalButton';
 import CustomButton from './components/CustomButton';
 import MyToolbar from './components/Toolbar';
-import "./App.css";
+//import "./App.css";
 
 export default function App() {
   const [colors, setColors] = useState();
@@ -18,16 +18,16 @@ export default function App() {
   let texto;
   if (colors) {
     texto = `Datos leidos exitosamente!`
-    button = <CustomButton colors={colors} className="button"/>
+    button = <CustomButton colors={colors}/>
   } else {
     texto = `No se ha leido ningún color desde Firestore`
-    button = <NormalButton className="button"/>
+    button = <NormalButton/>
   }
   return (
     <View>
-      <MyToolbar/>
-      <Text className="text">{texto}</Text>
-      {/*button*/}
+      {/*<MyToolbar/>*/}
+      <Text>{texto}</Text>
+      {button}
     </View>
   );
 }
