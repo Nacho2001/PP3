@@ -1,7 +1,7 @@
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js";
-import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-analytics.js";
-import { getDatabase, ref, onChildAdded } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-database.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-app.js";
+// import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-analytics.js";
+import { getDatabase, ref, onChildAdded } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-database.js";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -18,27 +18,11 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+// const analytics = getAnalytics(app);
 const db = getDatabase();
 
 let loader = document.getElementById("loader");
 let preguntaContainer = document.getElementById("preguntaContainer");
-
-function getDataFromDatabase() {
-    loader.style.display = 'block';
-    preguntaContainer.style.display = 'none';
-
-    const reference = ref(db, '/preguntas');
-    onChildAdded(reference, function(data) {
-        console.log(data.val());
-        preguntas.push(data.val());
-        loader.style.display = 'none';
-        preguntaContainer.style.display = 'block';
-        renderQuestion();
-    })
-}
-getDataFromDatabase();
-
 let preguntas = [];
 
 let currentQuestion = document.getElementById("currentQuestion");
@@ -48,6 +32,25 @@ let answerParent = document.getElementById("answerParent");
 
 let indexN = 0;
 let score = 0;
+
+function getDataFromDatabase() {
+    loader.style.display = 'block';
+    preguntaContainer.style.display = 'none';
+
+    const reference = ref(db, 'preguntas/');
+
+    onChildAdded(reference, function(data) {
+        console.log(data.val());
+        preguntas.push(data.val());
+
+        if (preguntas.length >= 1) {
+            loader.style.display = 'none';
+            preguntaContainer.style.display = 'block';
+            renderQuestion();
+        }
+    })
+}
+getDataFromDatabase();
 
 window.checkQuestion = function(a, b) {
     if (a == b) {
@@ -69,12 +72,11 @@ window.nextQuestion = function() {
 function renderQuestion() {
     currentQuestion.innerHTML = indexN + 1;
     totalQuestions.innerHTML = preguntas.length;
-    console.log(preguntas.length);
 
     let obj = preguntas[indexN];
     question.innerHTML = obj.pregunta;
-    console.log(question);
-    answerParent.innerHTML = '';
+
+    answerParent.innerHTML = ''
     for (let i = 0; i < obj.opciones.length; i++) {
         answerParent.innerHTML += `
         <div class="col-md-4">
@@ -87,5 +89,3 @@ function renderQuestion() {
         `
     }
 }
-
-renderQuestion();
