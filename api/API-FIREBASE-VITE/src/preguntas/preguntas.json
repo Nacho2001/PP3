@@ -1,0 +1,1048 @@
+{
+    "preguntas": [
+      {
+        "tema": "preservativo",
+        "pregunta": "¿Qué tipo de anticonceptivo es el preservativo?",
+        "opciones": [
+          "Un método barrera.",
+          "Un método hormonal.",
+          "Un método natural.",
+          "Todas son correctas."
+        ],
+        "respuesta_correcta": "Un método barrera.",
+        "explicacion": "Los preservativos son un tipo de anticonceptivo de barrera que se usan durante el acto sexual para prevenir el embarazo y las infecciones de transmisión sexual."
+      },
+      {
+        "tema": "preservativo",
+        "pregunta": "¿Cuál es el método anticonceptivo que reduce la posibilidad de contraer una infección de transmisión sexual?",
+        "opciones": [
+          "El chip (implante subdérmico).",
+          "La inyección.",
+          "El preservativo.",
+          "Las pastillas anticonceptivas."
+        ],
+        "respuesta_correcta": "El preservativo.",
+        "explicacion": "El uso de preservativos es el método anticonceptivo más efectivo para reducir el riesgo de contraer infecciones de transmisión sexual (ITS)."
+      },
+      {
+        "tema": "preservativo",
+        "pregunta": "Durante el sexo oral, ¿es necesario utilizar preservativo?",
+        "opciones": [
+          "El chip (implante subdérmico).",
+          "La inyección.",
+          "El preservativo.",
+          "Todas son correctas."
+        ],
+        "respuesta_correcta": "El preservativo.",
+        "explicacion": "Durante el sexo oral, es importante usar protección para prevenir el riesgo de contraer infecciones de transmisión sexual (ITS)."
+      },
+      {
+        "tema": "preservativo",
+        "pregunta": "¿Por qué se debe apretar la punta del preservativo antes de desenrollarlo sobre el pene?",
+        "opciones": [
+          "No es necesario apretar la punta.",
+          "Porque esto me permite saber si está pinchado.",
+          "Porque evita que quede aire que pueda romper el preservativo.",
+          "Todas son correctas."
+        ],
+        "respuesta_correcta": "Porque evita que quede aire que pueda romper el preservativo.",
+        "explicacion": "Apretar la punta del preservativo evita que el aire quede atrapado en la punta, lo que puede hacer que el preservativo se rompa durante el uso."
+      },
+      {
+        "tema": "preservativo",
+        "pregunta": "¿Desde qué momento de la relación sexual hay que usar el preservativo?",
+        "opciones": [
+          "Antes de la penetración.",
+          "Unos segundos antes de la eyaculación.",
+          "Unos segundos después de la eyaculación.",
+          "Todas son correctas."
+        ],
+        "respuesta_correcta": "Antes de la penetración.",
+        "explicacion": "Es importante usar un preservativo desde el principio de la relación sexual antes de la penetración hasta el final."
+      },
+      {
+        "tema": "preservativo",
+        "pregunta": "¿Cómo se coloca el preservativo femenino?",
+        "opciones": [
+          "Se desenrolla sobre el pene.",
+          "Cubre solamente la vulva.",
+          "Se inserta en la vagina.",
+          "Todas son correctas."
+        ],
+        "respuesta_correcta": "Se inserta en la vagina.",
+        "explicacion": "El preservativo femenino se inserta en la vagina y cubre el cuello uterino, ofreciendo una barrera de protección."
+      },
+      {
+        "tema": "preservativo",
+        "pregunta": "¿Cómo se puede comprobar que no estén pinchados los preservativos?",
+        "opciones": [
+          "Inflándolos.",
+          "Llenándolos de agua.",
+          "Tocando el envase. Tiene que tener aire.",
+          "Todas son correctas."
+        ],
+        "respuesta_correcta": "Tocando el envase. Tiene que tener aire.",
+        "explicacion": "Es importante asegurarse de que el preservativo no esté pinchado tocando el envase para verificar que contiene aire."
+      },
+      {
+        "tema": "preservativo",
+        "pregunta": "¿Se puede reutilizar un preservativo?",
+        "opciones": [
+          "Sí, todas las veces que haga falta.",
+          "No. Se usa una sola vez.",
+          "Sí, pero solo dos veces.",
+          "Todas son correctas."
+        ],
+        "respuesta_correcta": "No. Se usa una sola vez.",
+        "explicacion": "Los preservativos están diseñados para ser de un solo uso. Reutilizarlos puede aumentar el riesgo de rotura y transmisión de ITS."
+      },
+      {
+        "tema": "preservativo",
+        "pregunta": "¿Se puede usar un preservativo masculino y uno femenino juntos?",
+        "opciones": [
+          "Sí, es mucho más seguro.",
+          "Sí, aumenta la eficacia de los mismos casi a un 100%.",
+          "No, porque con la fricción es más fácil que se rompa.",
+          "Todas son correctas."
+        ],
+        "respuesta_correcta": "No, porque con la fricción es más fácil que se rompa.",
+        "explicacion": "El uso de dos preservativos juntos puede aumentar el riesgo de rotura debido a la fricción entre ellos."
+      },
+      {
+        "tema": "preservativo",
+        "pregunta": "¿En qué momento hay que retirar el preservativo del pene?",
+        "opciones": [
+          "Inmediatamente luego de la eyaculación antes que pierda la erección.",
+          "Antes de la eyaculación.",
+          "Después de la eyaculación, cuando el pene ya perdió la erección.",
+          "Todas son correctas."
+        ],
+        "respuesta_correcta": "Inmediatamente luego de la eyaculación antes que pierda la erección.",
+        "explicacion": "El preservativo debe retirarse cuando el pene aún está erecto para evitar derrames accidentales."
+      },
+      {
+        "tema": "preservativo",
+        "pregunta": "¿Qué tipo de anticonceptivo es el preservativo?",
+        "opciones": [
+          "Un método barrera.",
+          "Un método hormonal.",
+          "Un método natural.",
+          "Todas son correctas."
+        ],
+        "respuesta_correcta": "Un método barrera.",
+        "explicacion": "Los preservativos son un tipo de anticonceptivo de barrera que se usan durante el acto sexual para prevenir el embarazo y las infecciones de transmisión sexual."
+      },
+      {
+        "tema": "preservativo",
+        "pregunta": "¿Cuál es el método anticonceptivo que reduce la posibilidad de contraer una infección de transmisión sexual?",
+        "opciones": [
+          "El chip (implante subdérmico).",
+          "La inyección.",
+          "El preservativo.",
+          "Las pastillas anticonceptivas."
+        ],
+        "respuesta_correcta": "El preservativo.",
+        "explicacion": "El uso de preservativos es el método anticonceptivo más efectivo para reducir el riesgo de contraer infecciones de transmisión sexual (ITS)."
+      },
+      {
+        "tema": "preservativo",
+        "pregunta": "Durante el sexo oral, ¿es necesario utilizar preservativo?",
+        "opciones": [
+          "El chip (implante subdérmico).",
+          "La inyección.",
+          "El preservativo.",
+          "Todas son correctas."
+        ],
+        "respuesta_correcta": "El preservativo.",
+        "explicacion": "Durante el sexo oral, es importante usar protección para prevenir el riesgo de contraer infecciones de transmisión sexual (ITS)."
+      },
+      {
+        "tema": "preservativo",
+        "pregunta": "¿Por qué se debe apretar la punta del preservativo antes de desenrollarlo sobre el pene?",
+        "opciones": [
+          "No es necesario apretar la punta.",
+          "Porque esto me permite saber si está pinchado.",
+          "Porque evita que quede aire que pueda romper el preservativo.",
+          "Todas son correctas."
+        ],
+        "respuesta_correcta": "Porque evita que quede aire que pueda romper el preservativo.",
+        "explicacion": "Apretar la punta del preservativo evita que el aire quede atrapado en la punta, lo que puede hacer que el preservativo se rompa durante el uso."
+      },
+      {
+        "tema": "preservativo",
+        "pregunta": "¿Desde qué momento de la relación sexual hay que usar el preservativo?",
+        "opciones": [
+          "Antes de la penetración.",
+          "Unos segundos antes de la eyaculación.",
+          "Unos segundos después de la eyaculación.",
+          "Todas son correctas."
+        ],
+        "respuesta_correcta": "Antes de la penetración.",
+        "explicacion": "Es importante usar un preservativo desde el principio de la relación sexual antes de la penetración hasta el final."
+      },
+      {
+        "tema": "preservativo",
+        "pregunta": "¿Cómo se coloca el preservativo femenino?",
+        "opciones": [
+          "Se desenrolla sobre el pene.",
+          "Cubre solamente la vulva.",
+          "Se inserta en la vagina.",
+          "Todas son correctas."
+        ],
+        "respuesta_correcta": "Se inserta en la vagina.",
+        "explicacion": "El preservativo femenino se inserta en la vagina y cubre el cuello uterino, ofreciendo una barrera de protección."
+      },
+      {
+        "tema": "preservativo",
+        "pregunta": "¿Cómo se puede comprobar que no estén pinchados los preservativos?",
+        "opciones": [
+          "Inflándolos.",
+          "Llenándolos de agua.",
+          "Tocando el envase. Tiene que tener aire.",
+          "Todas son correctas."
+        ],
+        "respuesta_correcta": "Tocando el envase. Tiene que tener aire.",
+        "explicacion": "Es importante asegurarse de que el preservativo no esté pinchado tocando el envase para verificar que contiene aire."
+      },
+      {
+        "tema": "preservativo",
+        "pregunta": "¿Se puede reutilizar un preservativo?",
+        "opciones": [
+          "Sí, todas las veces que haga falta.",
+          "No. Se usa una sola vez.",
+          "Sí, pero solo dos veces.",
+          "Todas son correctas."
+        ],
+        "respuesta_correcta": "No. Se usa una sola vez.",
+        "explicacion": "Los preservativos están diseñados para ser de un solo uso. Reutilizarlos puede aumentar el riesgo de rotura y transmisión de ITS."
+      },
+      {
+        "tema": "preservativo",
+        "pregunta": "¿Se puede usar un preservativo masculino y uno femenino juntos?",
+        "opciones": [
+          "Sí, es mucho más seguro.",
+          "Sí, aumenta la eficacia de los mismos casi a un 100%.",
+          "No, porque con la fricción es más fácil que se rompa.",
+          "Todas son correctas."
+        ],
+        "respuesta_correcta": "No, porque con la fricción es más fácil que se rompa.",
+        "explicacion": "El uso de dos preservativos juntos puede aumentar el riesgo de rotura debido a la fricción entre ellos."
+      },
+      {
+        "tema": "preservativo",
+        "pregunta": "¿En qué momento hay que retirar el preservativo del pene?",
+        "opciones": [
+          "Inmediatamente luego de la eyaculación antes que pierda la erección.",
+          "Antes de la eyaculación.",
+          "Después de la eyaculación, cuando el pene ya perdió la erección.",
+          "Todas son correctas."
+        ],
+        "respuesta_correcta": "Inmediatamente luego de la eyaculación antes que pierda la erección.",
+        "explicacion": "El preservativo debe retirarse cuando el pene aún está erecto para evitar derrames accidentales."
+      },
+      {
+        "tema": "its",
+        "pregunta": "¿Qué significa la sigla ITS?",
+        "opciones": [
+          "Infecciones de Transmisión Sexual",
+          "Infecciones de Tratamiento Seguro",
+          "Inmunidad de Transmisión Sanguínea",
+          "Infecciones de Tipo Severo"
+        ],
+        "respuesta_correcta": "Infecciones de Transmisión Sexual",
+        "explicacion": "Son infecciones que se transmiten principalmente por contacto sexual."
+      },
+      {
+        "tema": "its",
+        "pregunta": "¿Cuál de las siguientes es una ITS frecuente?",
+        "opciones": [
+          "Varicela",
+          "Gripe",
+          "Gonorrea",
+          "Hepatitis A"
+        ],
+        "respuesta_correcta": "Gonorrea",
+        "explicacion": "Es una infección frecuente causada por la bacteria Neisseria gonorrhoeae."
+      },
+      {
+        "tema": "its",
+        "pregunta": "¿Cómo se transmite principalmente la sífilis?",
+        "opciones": [
+          "Por compartir alimentos",
+          "Por relaciones sexuales sin uso de preservativo",
+          "Por picaduras de insectos",
+          "Por contacto con superficies contaminadas"
+        ],
+        "respuesta_correcta": "Por relaciones sexuales sin uso de preservativo",
+        "explicacion": "La sífilis se transmite a través del contacto sexual sin protección."
+      },
+      {
+        "tema": "its",
+        "pregunta": "¿Qué bacteria causa la sífilis?",
+        "opciones": [
+          "Escherichia coli",
+          "Treponema pallidum",
+          "Staphylococcus aureus",
+          "Mycobacterium tuberculosis"
+        ],
+        "respuesta_correcta": "Treponema pallidum",
+        "explicacion": "La sífilis es causada por la bacteria Treponema pallidum."
+      },
+      {
+        "tema": "its",
+        "pregunta": "¿Cuál es un síntoma inicial de la sífilis?",
+        "opciones": [
+          "Fiebre alta",
+          "Dolor de garganta",
+          "Tos persistente",
+          "Llaga o ampolla dura en los genitales, boca o ano"
+        ],
+        "respuesta_correcta": "Llaga o ampolla dura en los genitales, boca o ano",
+        "explicacion": "Es un síntoma característico de la sífilis primaria."
+      },
+      {
+        "tema": "its",
+        "pregunta": "¿Qué ITS puede causar infecciones en los genitales, el recto y la garganta?",
+        "opciones": [
+          "Gonorrea",
+          "Varicela",
+          "Hepatitis A",
+          "Gripe"
+        ],
+        "respuesta_correcta": "Gonorrea",
+        "explicacion": "La gonorrea puede afectar estas áreas del cuerpo."
+      },
+      {
+        "tema": "its",
+        "pregunta": "¿Cuál es una forma común de transmisión del herpes genital?",
+        "opciones": [
+          "Compartir utensilios de comida",
+          "Tos y estornudos",
+          "Contacto sexual",
+          "Picaduras de mosquitos"
+        ],
+        "respuesta_correcta": "Contacto sexual",
+        "explicacion": "El herpes genital se transmite principalmente por contacto sexual."
+      },
+      {
+        "tema": "its",
+        "pregunta": "¿Qué virus causa el herpes genital?",
+        "opciones": [
+          "Herpes simple",
+          "Virus de la hepatitis B",
+          "Virus de la hepatitis C",
+          "Virus del papiloma humano"
+        ],
+        "respuesta_correcta": "Herpes simple",
+        "explicacion": "El herpes genital es causado por el virus del herpes simple."
+      },
+      {
+        "tema": "its",
+        "pregunta": "¿Cuál de las siguientes ITS puede causar verrugas genitales?",
+        "opciones": [
+          "Gonorrea",
+          "HPV",
+          "Sífilis",
+          "Clamidia"
+        ],
+        "respuesta_correcta": "HPV",
+        "explicacion": "El virus del papiloma humano puede causar verrugas genitales."
+      },
+      {
+        "tema": "its",
+        "pregunta": "¿Cuál es una forma efectiva de prevenir la mayoría de las ITS?",
+        "opciones": [
+          "Usar preservativo durante todas las relaciones sexuales",
+          "Lavarse las manos frecuentemente",
+          "Vacunarse contra la gripe",
+          "Evitar compartir alimentos"
+        ],
+        "respuesta_correcta": "Usar preservativo durante todas las relaciones sexuales",
+        "explicacion": "El uso de preservativos reduce significativamente el riesgo de contraer ITS."
+      },
+      {
+        "tema": "its",
+        "pregunta": "¿Qué ITS puede ser asintomática tanto en hombres como en mujeres?",
+        "opciones": [
+          "Gripe",
+          "Hepatitis A",
+          "Clamidia",
+          "Varicela"
+        ],
+        "respuesta_correcta": "Clamidia",
+        "explicacion": "La clamidia puede no presentar síntomas en muchas personas."
+      },
+      {
+        "tema": "its",
+        "pregunta": "¿Cuál de las siguientes ITS tiene una vacuna disponible en el Calendario Nacional de Vacunación?",
+        "opciones": [
+          "Clamidia",
+          "Sífilis",
+          "Gonorrea",
+          "HPV"
+        ],
+        "respuesta_correcta": "HPV",
+        "explicacion": "Existe una vacuna contra el virus del papiloma humano."
+      },
+      {
+        "tema": "its",
+        "pregunta": "¿Qué virus causa el VIH?",
+        "opciones": [
+          "Virus de la hepatitis C",
+          "Virus de la hepatitis B",
+          "Virus de inmunodeficiencia humana",
+          "Virus del papiloma humano"
+        ],
+        "respuesta_correcta": "Virus de inmunodeficiencia humana",
+        "explicacion": "El VIH es causado por el virus de inmunodeficiencia humana."
+      },
+      {
+        "tema": "its",
+        "pregunta": "¿Qué ITS puede transmitirse de madre a hijo durante el parto?",
+        "opciones": [
+          "Varicela",
+          "Gripe",
+          "Herpes genital",
+          "Hepatitis A"
+        ],
+        "respuesta_correcta": "Herpes genital",
+        "explicacion": "El herpes genital puede transmitirse durante el parto."
+      },
+      {
+        "tema": "its",
+        "pregunta": "¿Qué ITS puede causar erupciones en la piel y fiebre si no se trata a tiempo?",
+        "opciones": [
+          "Gripe",
+          "Sífilis",
+          "Varicela",
+          "Hepatitis A"
+        ],
+        "respuesta_correcta": "Sífilis",
+        "explicacion": "La sífilis no tratada puede causar estos síntomas en su fase secundaria."
+      },
+      {
+        "tema": "its",
+        "pregunta": "¿Cuál de las siguientes ITS se puede controlar pero no curar completamente?",
+        "opciones": [
+          "VIH",
+          "Gonorrea",
+          "Clamidia",
+          "Sífilis"
+        ],
+        "respuesta_correcta": "VIH",
+        "explicacion": "El VIH se puede tratar y controlar, pero no se puede curar completamente."
+      },
+      {
+        "tema": "its",
+        "pregunta": "¿Cuál es un síntoma de la hepatitis B?",
+        "opciones": [
+          "Fiebre alta",
+          "Dolor de garganta",
+          "Tos persistente",
+          "Ictericia"
+        ],
+        "respuesta_correcta": "Ictericia",
+        "explicacion": "La ictericia, o coloración amarillenta de la piel y los ojos, es un síntoma de la hepatitis B."
+      },
+      {
+        "tema": "its",
+        "pregunta": "¿Qué ITS se puede transmitir principalmente a través de la sangre?",
+        "opciones": [
+          "Varicela",
+          "Gripe",
+          "Hepatitis C",
+          "Gonorrea"
+        ],
+        "respuesta_correcta": "Hepatitis C",
+        "explicacion": "La hepatitis C se transmite principalmente por contacto con sangre infectada."
+      },
+      {
+        "tema": "its",
+        "pregunta": "¿Cuál es un síntoma común de la clamidia en las mujeres?",
+        "opciones": [
+          "Tos persistente",
+          "Dolor de garganta",
+          "Secreción vaginal anormal",
+          "Fiebre alta"
+        ],
+        "respuesta_correcta": "Secreción vaginal anormal",
+        "explicacion": "Es un síntoma común en mujeres con clamidia."
+      },
+      {
+        "tema": "its",
+        "pregunta": "¿Cuál es una medida preventiva contra el HPV incluida en el Calendario Nacional de Vacunación?",
+        "opciones": [
+          "Evitar compartir alimentos",
+          "Uso de antibióticos",
+          "Lavado de manos frecuente",
+          "Vacunación"
+        ],
+        "respuesta_correcta": "Vacunación",
+        "explicacion": "La vacuna contra el HPV está incluida en el Calendario Nacional de Vacunación."
+  },
+  {
+    "tema": "salud mental",
+    "pregunta": "¿Qué es la salud mental?",
+    "opciones": [
+      "El bienestar físico, mental y social.",
+      "La capacidad de funcionar de forma adecuada en la vida cotidiana.",
+      "La capacidad de tener relaciones satisfactorias con los demás.",
+      "Todas son correctas."
+    ],
+    "respuesta_correcta": "Todas son correctas.",
+    "explicacion": "Es un estado de bienestar que abarca nuestro bienestar emocional, psicológico y social. Afecta la forma en que pensamos, sentimos y actuamos cuando enfrentamos la vida. También ayuda a determinar cómo manejamos el estrés, nos relacionamos con los demás y tomamos decisiones. Además, el bienestar físico, mental y social contribuye a la salud mental, ya que la salud física puede impactar emocionalmente y facilitar relaciones satisfactorias."
+  },
+  {
+    "tema": "salud mental",
+    "pregunta": "¿El cerebro adolescente es más susceptible al estrés?",
+    "opciones": [
+      "Sí, porque el cerebro adolescente está aún en desarrollo.",
+      "No, porque el cerebro adolescente ha desarrollado mecanismos de afrontamiento del estrés.",
+      "Depende de la personalidad del adolescente.",
+      "Depende de la exposición a factores estresantes."
+    ],
+    "respuesta_correcta": "Sí, porque el cerebro adolescente está aún en desarrollo.",
+    "explicacion": "El cerebro adolescente está aún en desarrollo, por lo que es más susceptible al estrés. El estrés puede afectar al desarrollo del cerebro, aumentando el riesgo de problemas de salud mental."
+  },
+  {
+    "tema": "salud mental",
+    "pregunta": "¿Cuáles son algunos signos de que una persona pueda estar experimentando problemas de salud mental?",
+    "opciones": [
+      "Cambios en el estado de ánimo, como la tristeza, la irritabilidad o la ansiedad.",
+      "Cambios en el comportamiento, como el aislamiento, la dificultad para concentrarse o el aumento del riesgo de accidentes.",
+      "Cambios en el sueño, como la dificultad para dormir o el exceso de sueño.",
+      "Todas son correctas."
+    ],
+    "respuesta_correcta": "Todas son correctas.",
+    "explicacion": "Algunos signos de que un joven puede estar experimentando problemas de salud mental incluyen cambios en el estado de ánimo, comportamiento, sueño u apetito. Es esencial reconocer que algunos signos pueden ser considerados como parte del proceso natural de desarrollo en la adolescencia. No obstante, es necesario que los adultos estén atentos y profundizando en la comprensión de cómo se sienten y qué tipo de malestar o cambio están experimentando la persona."
+  },
+  {
+    "tema": "salud mental",
+    "pregunta": "¿Que se puede hacer para prevenir los problemas de salud mental en los jóvenes?",
+    "opciones": [
+      "Factores genéticos.",
+      "Factores ambientales, como el estrés, el trauma o el abuso.",
+      "Factores psicológicos, como la baja autoestima o la falta de habilidades de afrontamiento.",
+      "Todas son correctas."
+    ],
+    "respuesta_correcta": "Todas son correctas.",
+    "explicacion": "Es crucial brindar apoyo social y emocional a los jóvenes, proveniente de padres, maestros, amigos y la comunidad, para que se sientan conectados y respaldados. Además, educar a los jóvenes sobre la salud mental es esencial para que comprendan los conceptos claves, identifiquen signos de problemas y sepan cómo pedir ayuda."
+  },
+  {
+    "tema": "salud mental",
+    "pregunta": "¿Cuáles son los signos y síntomas más comunes de la ansiedad?",
+    "opciones": [
+      "Insomnio, irritabilidad, dificultad para concentrarse.",
+      "Ataque de pánico, agorafobia, fobia social.",
+      "Depresión, pérdida de interés en las actividades cotidianas, pensamientos de muerte.",
+      "Todas son correctas."
+    ],
+    "respuesta_correcta": "Todas son correctas.",
+    "explicacion": "Los signos más comunes y síntomas más comunes incluyen insomnio, irritabilidad, dificultad para concentrarse, preocupación excesiva, inquietud y tensión muscular. La ansiedad puede ser leve o grave y puede afectar la vida diaria de una persona."
+  },
+  {
+    "tema": "salud mental",
+    "pregunta": "¿Cuáles son los signos y síntomas más comunes de la depresión?",
+    "opciones": [
+      "Insomnio, irritabilidad, dificultad para concentrarse.",
+      "Ataque de pánico, agorafobia, fobia social.",
+      "Desánimo, pérdida de interés en las actividades cotidianas, pensamientos de muerte.",
+      "Todas son correctas."
+    ],
+    "respuesta_correcta": "Desánimo, pérdida de interés en las actividades cotidianas, pensamientos de muerte.",
+    "explicacion": "Los signos y síntomas más comunes de la depresión incluyen desánimo, pérdida de interés en las actividades cotidianas, pensamientos de muerte, cambios en el apetito o el peso, problemas para dormir o quedarse dormido, cansancio o fatiga, dificultad para concentrarse o tomar decisiones, sentimiento de culpa o inutilidad, dificultad para pensar o hablar, y cambios en el comportamiento sexual. Es importante recordar que los signos y síntomas de problemas de salud mental pueden variar."
+  },
+  {
+    "tema": "salud mental",
+    "pregunta": "¿Qué es la terapia psicológica?",
+    "opciones": [
+      "Un tipo de tratamiento que ayuda a las personas a comprender y manejar sus pensamientos, emociones y comportamientos.",
+      "Un tipo de tratamiento que utiliza medicamentos para tratar los trastornos mentales.",
+      "Un tipo de tratamiento que combina terapia psicológica y medicamentos.",
+      "Todas son correctas."
+    ],
+    "respuesta_correcta": "Un tipo de tratamiento que ayuda a las personas a comprender y manejar sus pensamientos, emociones y comportamientos.",
+    "explicacion": "La terapia psicológica es un tipo de tratamiento que ayuda a las personas a comprender y manejar sus pensamientos, emociones y comportamientos. La terapia psicológica puede ser individual, grupal o familiar."
+  },
+  {
+    "tema": "salud mental",
+    "pregunta": "¿Cuál es la actividad que puede ayudar a reducir el estrés y mejorar la salud mental?",
+    "opciones": [
+      "Ver televisión todo el día.",
+      "Practicar ejercicio regularmente.",
+      "Consumir grandes cantidades de cafeína.",
+      "Ignorar los problemas y no hablar de ellos."
+    ],
+    "respuesta_correcta": "Practicar ejercicio regularmente.",
+    "explicacion": "El ejercicio es una forma natural de reducir el estrés y mejorar la salud mental. Cuando hacemos ejercicio, nuestro cuerpo libera endorfinas, que tienen un efecto calmante y de mejora del estado de ánimo. El ejercicio también puede ayudar a mejorar el sueño, la concentración y la autoestima. Las otras opciones, como consumir grandes cantidades de cafeína, ver televisión todo el día, o ignorar los problemas no son tan efectivas para reducir el estrés y mejorar la salud mental."
+  },
+  {
+    "tema": "salud mental",
+    "pregunta": "¿Cuál puede ser una clave para una comunicación efectiva en las relaciones interpersonales?",
+    "opciones": [
+      "No escuchar a los demás.",
+      "Expresar solo tus propias opiniones.",
+      "Practicar la empatía y escuchar activamente.",
+      "Evitar la comunicación abierta."
+    ],
+    "respuesta_correcta": "Practicar la empatía y escuchar activamente.",
+    "explicacion": "Cuando practicamos la empatía y escuchamos activamente, demostramos a los demás que nos importan y que estamos interesados en lo que tienen que decir. Esto ayuda a construir confianza y comprensión, lo que es esencial para las relaciones saludables."
+  },
+  {
+    "tema": "salud mental",
+    "pregunta": "¿Cuál de las siguientes afirmaciones es clave para la salud mental?",
+    "opciones": [
+      "Ignorar las propias necesidades mejora el bienestar.",
+      "Priorizar constantemente el trabajo sobre el descanso.",
+      "Practicar el autocuidado regularmente es esencial.",
+      "No es necesario descansar durante la semana."
+    ],
+    "respuesta_correcta": "Practicar el autocuidado regularmente es esencial.",
+    "explicacion": "El autocuidado es el acto de cuidar de uno mismo física, mental y emocionalmente. Es esencial para la salud mental, ya que nos ayuda a manejar el estrés, mejorar el estado de ánimo y aumentar la resiliencia. Ignorar las propias necesidades puede conducir al estrés, la ansiedad, la depresión y otros problemas de salud mental. Priorizar constantemente el trabajo sobre el descanso también puede ser perjudicial para la salud mental, ya que puede conducir a la fatiga, la irritabilidad y la disminución de la concentración."
+  },
+  {
+    "tema": "salud mental",
+    "pregunta": "¿Cuál de las siguientes actividades puede contribuir a la gestión del estrés en situaciones desafiantes?",
+    "opciones": [
+      "Evitar cualquier situación estresante.",
+      "Aprender y practicar técnicas de manejo del estrés.",
+      "Ignorar completamente el estrés.",
+      "Consumir alimentos altos en grasas."
+    ],
+    "respuesta_correcta": "Aprender y practicar técnicas de manejo del estrés.",
+    "explicacion": "El estrés es una respuesta natural del cuerpo a las situaciones desafiantes. Sin embargo, cuando el estrés se vuelve crónico, puede causar problemas de salud física y mental. Aprender y practicar técnicas de manejo del estrés puede ayudar a reducir el impacto del estrés en nuestra vida."
+  },
+  {
+    "tema": "salud mental",
+    "pregunta": "¿Qué puede ayudar a reducir la sensación de soledad y mejorar la salud mental?",
+    "opciones": [
+      "Aislarse y evitar la interacción social.",
+      "Utilizar las redes sociales exclusivamente para la comunicación.",
+      "Participar en actividades sociales y construir conexiones significativas.",
+      "Ignorar las señales de soledad."
+    ],
+    "respuesta_correcta": "Participar en actividades sociales y construir conexiones significativas.",
+    "explicacion": "La soledad, un sentimiento de aislamiento, puede tener consecuencias negativas para la salud mental, aumentando el riesgo de depresión, ansiedad y problemas de sueño. Para mitigar la soledad y mejorar la salud mental, participar en actividades sociales y construir conexiones significativas es fundamental. Las actividades sociales, como unirse a grupos o participar en voluntariados, y las conexiones basadas en confianza y apoyo mutuo, contribuyen a una sensación de pertenencia y aceptación."
+  },
+  {
+    "tema": "salud mental",
+    "pregunta": "¿Cuál puede ser un síntoma de que alguien puede necesitar ayuda profesional para la salud mental?",
+    "opciones": [
+      "Experimentar estrés ocasional.",
+      "Sentir tristeza persistente y falta de interés en actividades.",
+      "Ignorar completamente los problemas emocionales.",
+      "Ocultar los sentimientos a los demás."
+    ],
+    "respuesta_correcta": "Sentir tristeza persistente y falta de interés en actividades.",
+    "explicacion": "La tristeza es una emoción normal que todos experimentan de vez en cuando. Sin embargo, cuando la tristeza es persistente y se acompaña de otros síntomas, como la falta de interés en las actividades que antes disfrutaba, puede ser un signo de depresión. Ya que la depresión es un problema de salud mental grave que puede afectar a la capacidad de una persona para funcionar en su vida cotidiana. Si se experimenta tristeza persistente, es importante buscar ayuda profesional."
+  },
+  {
+    "tema": "salud mental",
+    "pregunta": "¿Cuáles son algunas de las formas en que se puede ayudar a alguien que está teniendo problemas de salud mental?",
+    "opciones": [
+      "Enfocarse exclusivamente en lo negativo.",
+      "Practicar la gratitud y el pensamiento positivo.",
+      "Ignorar las emociones y pensamientos.",
+      "No prestar atención a los logros personales."
+    ],
+    "respuesta_correcta": "Practicar la gratitud y el pensamiento positivo.",
+    "explicacion": "Escuchar con atención y sin juzgar es fundamental para que alguien se sienta apoyado y comprendido. Ofrecer apoyo, ya sea simplemente estando presente, ofreciendo palabras de aliento o ayudando con tareas específicas, también es esencial. Además, se puede ayudar a la persona a buscar ayuda profesional puede ser útil, conectándose con un profesional de la salud mental cualificado. Otros consejos adicionales incluyen ser paciente y comprensivo, abstenerse de dar consejos y recomendar ayuda profesional si es necesario."
+  },
+  {
+    "tema": "salud mental",
+    "pregunta": "¿Cuáles son algunas formas de combatir el estigma de la salud mental?",
+    "opciones": [
+      "Hablar sobre la salud mental de forma abierta y honesta.",
+      "Desmentir los mitos y estereotipos sobre la salud mental.",
+      "Apoyar a las personas con trastornos mentales.",
+      "Todas son correctas."
+    ],
+    "respuesta_correcta": "Todas son correctas.",
+    "explicacion": "Una forma de combatir el estigma de la salud mental es hablar sobre la salud mental de forma abierta y honesta. También es importante desmentir los mitos y estereotipos sobre la salud mental. Por último, es importante apoyar a las personas con trastornos mentales."
+  },
+  {
+    "tema": "salud mental",
+    "pregunta": "¿Un trastorno mental es una discapacidad?",
+    "opciones": [
+      "Sí, siempre.",
+      "No, nunca.",
+      "Depende del trastorno y su impacto en la vida diaria.",
+      "Solo en situaciones extremas."
+    ],
+    "respuesta_correcta": "Depende del trastorno y su impacto en la vida diaria.",
+    "explicacion": "Los trastornos mentales pueden generar problemas que afectan la capacidad de funcionar diariamente. Estos problemas incluyen dificultad para concentrarse, cambios en el apetito o el sueño, pérdida de interés en actividades previas, aumento del riesgo de accidentes y pensamientos suicidas. Si estos problemas interfieren significativamente con el trabajo, estudio, autocuidado o relaciones sociales, el trastorno mental puede considerarse una discapacidad. No todos los trastornos mentales causan discapacidad; por ejemplo, con tratamiento, algunas personas pueden manejar trastornos de ansiedad leves y llevar a cabo sus actividades cotidianas."
+  },
+  {
+    "tema": "salud mental",
+    "pregunta": "¿Qué afecciones de la salud mental son más comunes entre los adolescentes?",
+    "opciones": [
+      "Trastornos alimentarios.",
+      "Ansiedad y depresión.",
+      "Esquizofrenia.",
+      "Trastorno obsesivo-compulsivo (TOC)."
+    ],
+    "respuesta_correcta": "Ansiedad y depresión.",
+    "explicacion": "Según la Organización Mundial de la Salud, la ansiedad y la depresión son los trastornos de salud mental más comunes en los adolescentes. Afectan a aproximadamente el 15% de los adolescentes en todo el mundo. La ansiedad se caracteriza por sentimientos de miedo, nerviosismo o inquietud. Puede causar una variedad de síntomas físicos y emocionales, como problemas para concentrarse, dificultad para dormir y cambios en el apetito. La depresión se caracteriza por sentimientos de tristeza, desesperanza y pérdida de interés en las actividades que antes se disfrutaban. Puede causar una variedad de síntomas físicos y emocionales, como fatiga, pérdida de apetito y pensamientos suicidas."
+  },
+  {
+    "tema": "salud mental",
+    "pregunta": "¿Cómo pueden los padres apoyar la salud mental de sus hijos adolescentes?",
+    "opciones": [
+      "Fomentar la comunicación abierta.",
+      "Establecer expectativas poco realistas.",
+      "Ignorar los cambios de comportamiento.",
+      "Limitar la expresión emocional."
+    ],
+    "respuesta_correcta": "Fomentar la comunicación abierta.",
+    "explicacion": "Las personas adultas pueden apoyar la salud mental de sus hijos adolescentes fomentando la comunicación abierta. Esto significa crear un entorno seguro y de apoyo donde los adolescentes se sientan cómodos hablando sobre sus sentimientos y pensamientos. Los padres pueden hacer esto escuchando con atención a sus hijos, sin juzgarlos ni criticarlos. También pueden animar a sus hijos a expresar sus sentimientos de una manera saludable, como escribiendo en un diario o hablando con un terapeuta."
+  },
+  {
+    "tema": "salud mental",
+    "pregunta": "¿Son válidos los tests que existen en internet para detectar problemas de salud mental?",
+    "opciones": [
+      "Sí, siempre proporcionan resultados precisos.",
+      "No, nunca son confiables.",
+      "Algunos pueden ser útiles, pero muchos carecen de validez y precisión.",
+      "Ninguna es correcta."
+    ],
+    "respuesta_correcta": "Ninguna es correcta",
+"explicacion": "Los test en línea pueden ser una herramienta útil para la autoevaluación, pero es importante tener en cuenta sus limitaciones. Estos están diseñados para proporcionar una indicación general de la salud mental de una persona, pero no pueden proporcionar un diagnóstico definitivo, ya que estos solo son una parte del proceso de diagnóstico en salud mental. Este diagnóstico se logra mediante la combinación de diversos métodos, incluyendo pruebas psicométricas, entrevistas clínicas y observaciones. Es crucial entender que un único test no define un diagnóstico; se necesita un enfoque integral que considere múltiples aspectos del individuo para obtener una evaluación precisa."
+  },
+  {
+    "tema": "salud mental",
+    "pregunta": "¿Por qué es importante reducir el consumo de estímulos visuales efímeros, como las redes sociales cuando se habla de salud mental?",
+    "opciones": [
+      "Porque puede aumentar el estrés y la ansiedad.",
+      "Porque puede provocar problemas de sueño.",
+    "Porque puede dificultar la concentración y la atención.",
+      "Todas son correctas."
+    ],
+    "respuesta_correcta": "Todas son correctas.",
+"explicacion": "Reducir el consumo de estímulos visuales efímeros, como las redes sociales, es esencial para la salud mental. Esto se debe a que pueden aumentar el estrés y la ansiedad, provocar problemas de sueño, dificultar la concentración, generar sentimientos de comparación y baja autoestima, y tener potencial adictivo. Aunque disfrutar ocasionalmente de estos estímulos no está mal, es crucial ser consciente de los posibles riesgos y establecer límites en su consumo."
+  },
+  {
+    "tema": "ciberbullying",
+    "pregunta": "¿Qué puedo hacer para parar el bullying?",
+    "opciones": [
+      "Todas son correctas.",
+      "Decirle al maestro o a algún adulto de la escuela.",
+      "No callarse y no ser indiferente.",
+      "Junto a otros compañeros, decirle al agresor que pare."
+    ],
+    "respuesta_correcta": "Todas son correctas.",
+    "explicacion": "Para detener el bullying lo primero y principal es no quedarnos callados ante el problema. Habla con alguien de confianza: Si por más que intentas detenerlo, no puedes lograrlo, habla con alguien de confianza como tus padres o maestros. Al principio puede parecer difícil hablar de este tema con alguien más, pero recuerda que todo es por tu propio bien."
+  },
+  {
+    "tema": "ciberbullying",
+    "pregunta": "¿Cuál de las siguientes acciones NO es una forma de apoyar a alguien que ha sido víctima de bullying?",
+    "opciones": [
+      "Escuchar activamente y mostrar empatía hacia la persona afectada.",
+      "Ofrecerse a acompañar a la persona afectada a buscar ayuda.",
+      "Culpar a la víctima por provocar el bullying.",
+      "Informar a un adulto responsable o una autoridad escolar sobre la situación."
+    ],
+    "respuesta_correcta": "Culpar a la víctima por provocar el bullying.",
+    "explicacion": "Culpar a la víctima por provocar el bullying no es una forma adecuada de apoyar a alguien que ha sido víctima de acoso. Es importante evitar culpar a la víctima y reconocer que ninguna persona merece ser acosada o maltratada. Al culpar a la víctima, se perpetúa la idea errónea de que el acoso es justificado o aceptable."
+  },
+  {
+    "tema": "ciberbullying",
+    "pregunta": "¿A qué se denomina bullying?",
+    "opciones": [
+      "Es un abuso que causa dolor.",
+      "Una broma.",
+      "Un pasatiempo.",
+      "Algo normal entre los adolescentes."
+    ],
+    "respuesta_correcta": "Es un abuso que causa dolor.",
+    "explicacion": "El bullying es un comportamiento agresivo y repetido que se ejerce de manera intencional por parte de una o más personas con el objetivo de dañar, intimidar o humillar a otra persona. Puede manifestarse de diversas formas, como el acoso físico o verbal, el aislamiento social, el ciberacoso, el abuso de poder o la difusión de rumores o mentiras."
+  },
+  {
+    "tema": "ciberbullying",
+    "pregunta": "¿Cuál de las siguientes acciones NO es una forma de ciberbullying en las redes sociales?",
+    "opciones": [
+      "Enviar mensajes de odio y amenazas a alguien en línea.",
+      "Compartir imágenes íntimas de alguien sin su consentimiento.",
+      "Crear perfiles falsos para acosar a alguien.",
+      "Compartir información personal con amigos de confianza."
+    ],
+    "respuesta_correcta": "Compartir información personal con amigos de confianza.",
+    "explicacion": "Compartir información personal con amigos de confianza no es una forma de ciberbullying. El ciberbullying implica acciones agresivas y dañinas realizadas a través de medios electrónicos, como las redes sociales."
+  },
+  {
+    "tema": "ciberbullying",
+    "pregunta": "¿A qué se denomina ciberbullying?",
+    "opciones": [
+      "Una I.T.S.",
+      "Un insulto en inglés.",
+      "Un método anticonceptivo.",
+      "Acoso a través de las redes sociales."
+    ],
+    "respuesta_correcta": "Acoso a través de las redes sociales.",
+    "explicacion": "El ciberbullying es el acoso a través de Internet, teléfonos móviles o redes sociales, utilizando la tecnología para atormentar, amenazar, hostigar, humillar o molestar a otra persona."
+  },
+  {
+    "tema": "ciberbullying",
+    "pregunta": "¿Cuál de las siguientes afirmaciones es cierta sobre el papel de los espectadores en el bullying?",
+    "opciones": [
+      "Los espectadores no tienen responsabilidad de intervenir en situaciones de bullying.",
+      "Los espectadores no tienen ningún impacto en el comportamiento del agresor.",
+      "Los espectadores pueden ser una parte activa en la prevención y resolución del bullying.",
+      "Los espectadores siempre apoyan y alientan al agresor en sus acciones."
+    ],
+    "respuesta_correcta": "Los espectadores pueden ser una parte activa en la prevención y resolución del bullying.",
+    "explicacion": "Los espectadores juegan un papel crucial en la dinámica del bullying. Aunque algunos espectadores pueden apoyar y alentar al agresor, otros pueden ser una parte activa en la prevención y resolución del bullying."
+  },
+  {
+    "tema": "ciberbullying",
+    "pregunta": "¿Cuáles son algunas de las consecuencias del bullying?",
+    "opciones": [
+      "Bajas calificaciones.",
+      "Abandonar la escuela.",
+      "Sentir miedo.",
+      "Todas son correctas."
+    ],
+    "respuesta_correcta": "Todas son correctas.",
+    "explicacion": "El bullying tiene graves consecuencias para las víctimas, incluyendo bajas calificaciones, abandono escolar y un aumento del miedo y la ansiedad."
+  },
+  {
+    "tema": "ciberbullying",
+    "pregunta": "¿Qué se puede hacer para prevenir el ciberbullying en las redes sociales?",
+    "opciones": [
+      "Configurar las opciones de privacidad para controlar quién puede ver y comentar las publicaciones.",
+      "Compartir información personal en línea para ganar popularidad.",
+      "Participar en comportamientos agresivos en línea para defenderse.",
+      "Ignorar los mensajes de odio y las amenazas en línea."
+    ],
+    "respuesta_correcta": "Configurar las opciones de privacidad para controlar quién puede ver y comentar las publicaciones.",
+    "explicacion": "Para prevenir el ciberbullying en las redes sociales, es importante configurar las opciones de privacidad de manera adecuada. Esto implica controlar quién puede ver y comentar las publicaciones, limitando el acceso a personas desconocidas."
+  },
+  {
+    "tema": "ciberbullying",
+    "pregunta": "¿Cuál es una forma de fomentar la empatía y el respeto entre los jóvenes para prevenir el bullying?",
+    "opciones": [
+      "Promover el individualismo y la competencia en lugar de la colaboración.",
+      "Estigmatizar a aquellos que son diferentes y no encajan en la norma.",
+      "Enseñarles a los jóvenes a ignorar las emociones de los demás.",
+      "Fomentar la comprensión de las diferencias y celebrar la diversidad."
+    ],
+    "respuesta_correcta": "Fomentar la comprensión de las diferencias y celebrar la diversidad.",
+    "explicacion": "Fomentar la comprensión de las diferencias y celebrar la diversidad es fundamental para promover la empatía y el respeto en los jóvenes."
+  },
+  {
+    "tema": "ciberbullying",
+    "pregunta": "¿Cuál de las siguientes afirmaciones es cierta sobre las consecuencias legales del ciberbullying?",
+    "opciones": [
+      "Puede llevar a acciones legales, como cargos criminales o demandas civiles.",
+      "Solo los agresores enfrentan consecuencias legales por su comportamiento.",
+      "Nunca tiene consecuencias legales.",
+      "Las víctimas de ciberbullying no tienen ningún recurso legal para protegerse."
+    ],
+    "respuesta_correcta": "Puede llevar a acciones legales, como cargos criminales o demandas civiles.",
+    "explicacion": "El ciberbullying puede tener consecuencias legales para los agresores, que pueden enfrentar cargos criminales o demandas civiles."
+  },
+  {
+    "tema": "ciberbullying",
+    "pregunta": "¿Cuál de las siguientes acciones es un ejemplo de ciberbullying?",
+    "opciones": [
+      "Ignorar un mensaje de texto.",
+      "Compartir fotos divertidas con amigos en línea.",
+      "Publicar rumores falsos sobre alguien en línea.",
+      "Enviar un correo electrónico amistoso."
+    ],
+    "respuesta_correcta": "Publicar rumores falsos sobre alguien en línea.",
+    "explicacion": "El ciberbullying implica difundir rumores o información falsa sobre alguien con el objetivo de dañarlo."
+  },
+  {
+    "tema": "ciberbullying",
+    "pregunta": "¿Cuál de las siguientes acciones NO se considera bullying?",
+    "opciones": [
+      "Ayudar a alguien que está pasando por un momento difícil.",
+      "Burlarse repetidamente de alguien por su apariencia física.",
+      "Excluir deliberadamente a alguien de un grupo social.",
+      "Discriminar a alguien por su modo de ser."
+    ],
+    "respuesta_correcta": "Ayudar a alguien que está pasando por un momento difícil.",
+    "explicacion": "El bullying implica comportamientos agresivos y dañinos. Ayudar a alguien en un momento difícil es un acto positivo."
+  },
+  {
+    "tema": "ciberbullying",
+    "pregunta": "¿Cuál de las siguientes acciones NO es una forma de bullying físico?",
+    "opciones": [
+      "Empujar y golpear a alguien.",
+      "Romper o robar las pertenencias de alguien.",
+      "Amenazar a alguien para obtener su dinero.",
+      "Difundir rumores falsos sobre alguien en línea."
+    ],
+    "respuesta_correcta": "Difundir rumores falsos sobre alguien en línea.",
+    "explicacion": "El bullying físico implica agresiones físicas, como empujones o golpes. Difundir rumores falsos en línea es una forma de ciberbullying."
+  },
+    {
+      "tema": "ciberbullying",
+      "pregunta": "¿Cuál de las siguientes acciones es un ejemplo de ciberbullying?",
+      "opciones": [
+        "Ignorar un mensaje de texto.",
+        "Compartir fotos divertidas con amigos en línea.",
+        "Publicar rumores falsos sobre alguien en línea.",
+        "Enviar un correo electrónico amistoso."
+      ],
+      "respuesta_correcta": "Publicar rumores falsos sobre alguien en línea.",
+      "explicacion": "El ciberbullying puede involucrar difundir rumores, compartir información falsa o humillante sobre alguien en línea, lo que puede tener consecuencias graves para la persona afectada."
+    },
+    {
+      "tema": "ciberbullying",
+      "pregunta": "¿Cuál de las siguientes acciones NO se considera bullying?",
+      "opciones": [
+        "Ayudar a alguien que está pasando por un momento difícil.",
+        "Burlarse repetidamente de alguien por su apariencia física.",
+        "Excluir deliberadamente a alguien de un grupo social.",
+        "Discriminar a alguien por su modo de ser."
+      ],
+      "respuesta_correcta": "Ayudar a alguien que está pasando por un momento difícil.",
+      "explicacion": "El bullying implica un comportamiento agresivo y dañino. Ayudar a alguien en un momento difícil es un acto positivo y compasivo, y es una forma de terminar con el bullying."
+    },
+    {
+      "tema": "ciberbullying",
+      "pregunta": "¿Cuál de las siguientes acciones NO es una forma de bullying físico?",
+      "opciones": [
+        "Empujar y golpear a alguien.",
+        "Romper o robar las pertenencias de alguien.",
+        "Amenazar a alguien para obtener su dinero.",
+        "Difundir rumores falsos sobre alguien en línea."
+      ],
+      "respuesta_correcta": "Difundir rumores falsos sobre alguien en línea.",
+      "explicacion": "El bullying físico implica acciones directas y físicas que causan daño o dolor a otra persona. Difundir rumores falsos sobre alguien en línea es ciberbullying, ya que ocurre en el entorno digital."
+    },
+    {
+      "tema": "ciberbullying",
+      "pregunta": "¿Cuál de las siguientes afirmaciones es cierta sobre el impacto del bullying?",
+      "opciones": [
+        "El bullying puede afectar negativamente la salud mental y emocional.",
+        "El bullying solo ocurre en entornos escolares.",
+        "El bullying solo ocurre en las redes sociales.",
+        "El bullying no tiene consecuencias negativas para la persona afectada."
+      ],
+      "respuesta_correcta": "El bullying puede afectar negativamente la salud mental y emocional.",
+      "explicacion": "El bullying tiene consecuencias negativas significativas para la persona afectada. Puede causar estrés, ansiedad, depresión e incluso problemas físicos."
+    },
+    {
+      "tema": "ciberbullying",
+      "pregunta": "¿Cuál de las siguientes afirmaciones es cierta sobre el ciberbullying?",
+      "opciones": [
+        "El ciberbullying solo afecta a los jóvenes, no a los adultos.",
+        "El ciberbullying solo ocurre en computadoras, no en teléfonos móviles.",
+        "El ciberbullying solo ocurre a través de mensajes de texto.",
+        "El ciberbullying puede tener consecuencias graves para la salud mental de una persona."
+      ],
+      "respuesta_correcta": "El ciberbullying puede tener consecuencias graves para la salud mental de una persona.",
+      "explicacion": "El ciberbullying afecta a personas de todas las edades y puede ocurrir en diferentes plataformas en línea. Puede tener un impacto significativo en la salud mental, causando ansiedad y depresión."
+    },
+    {
+      "tema": "ciberbullying",
+      "pregunta": "¿Cuál de las siguientes afirmaciones es cierta sobre los roles en el bullying?",
+      "opciones": [
+        "Hay múltiples roles en el bullying, como el agresor, la víctima y los espectadores.",
+        "Solo hay dos roles en el bullying: la víctima y el agresor.",
+        "Los roles en el bullying no tienen importancia.",
+        "Solo hay un rol en el bullying: el agresor."
+      ],
+      "respuesta_correcta": "Hay múltiples roles en el bullying, como el agresor, la víctima y los espectadores.",
+      "explicacion": "El bullying involucra diferentes roles: el agresor, la víctima y los espectadores, quienes pueden influir en la dinámica del acoso."
+    },
+    {
+      "tema": "ciberbullying",
+      "pregunta": "¿Cuál es una estrategia efectiva para prevenir el ciberbullying?",
+      "opciones": [
+        "Compartir información personal en línea.",
+        "Participar en comportamientos agresivos en línea para defenderse.",
+        "Ignorar los mensajes de odio en las redes sociales.",
+        "Denunciar el ciberbullying a las autoridades correspondientes."
+      ],
+      "respuesta_correcta": "Denunciar el ciberbullying a las autoridades correspondientes.",
+      "explicacion": "Es fundamental denunciar el ciberbullying para tomar medidas adecuadas que protejan a la persona afectada y pongan fin al acoso."
+    },
+    {
+      "tema": "ciberbullying",
+      "pregunta": "¿Qué se puede hacer para ayudar a alguien que está siendo víctima de bullying?",
+      "opciones": [
+        "Apoyar y consolar a la persona afectada.",
+        "Unirse a los agresores para evitar convertirse en una víctima.",
+        "Culpar a la víctima y justificar el comportamiento de los agresores.",
+        "Ignorar la situación y esperar a que se solucione por sí sola."
+      ],
+      "respuesta_correcta": "Apoyar y consolar a la persona afectada.",
+      "explicacion": "Brindar apoyo emocional y ayudar a la persona a denunciar el bullying son maneras efectivas de asistir a la víctima."
+    },
+    {
+      "tema": "ciberbullying",
+      "pregunta": "¿Qué es el acoso verbal en el contexto del bullying?",
+      "opciones": [
+        "Excluir a alguien de un grupo intencionalmente.",
+        "Maltratar a alguien con violencia física.",
+        "Ignorar a alguien deliberadamente en un entorno social.",
+        "Utilizar insultos y palabras ofensivas para atacar a alguien."
+      ],
+      "respuesta_correcta": "Utilizar insultos y palabras ofensivas para atacar a alguien.",
+      "explicacion": "El acoso verbal en el bullying implica el uso de palabras ofensivas y comentarios dañinos para atacar la autoestima de la víctima."
+    },
+    {
+      "tema": "ciberbullying",
+      "pregunta": "¿Qué es la difamación en el contexto del ciberbullying?",
+      "opciones": [
+        "Compartir imágenes íntimas de alguien sin su consentimiento.",
+        "Burlarse de alguien por su apariencia física en línea.",
+        "Publicar rumores falsos sobre alguien en línea para dañar su reputación.",
+        "Enviar mensajes amenazantes a través de las redes sociales."
+      ],
+      "respuesta_correcta": "Publicar rumores falsos sobre alguien en línea para dañar su reputación.",
+      "explicacion": "La difamación en ciberbullying implica difundir información falsa para dañar la reputación de una persona, lo que puede tener graves consecuencias legales."
+    },
+    {
+      "tema": "ciberbullying",
+      "pregunta": "¿Cuál es una forma de apoyar la prevención del bullying en las escuelas?",
+      "opciones": [
+        "Excluir a los estudiantes que han sido acosados de las actividades escolares.",
+        "Promover programas de educación y conciencia sobre el bullying.",
+        "Estigmatizar a los agresores y castigarlos severamente sin brindar oportunidades para el cambio.",
+        "Ignorar los casos de bullying y dejar que los niños lo resuelvan por sí mismos."
+      ],
+      "respuesta_correcta": "Promover programas de educación y conciencia sobre el bullying.",
+      "explicacion": "Los programas de concientización educan a los estudiantes sobre el impacto del bullying y promueven un entorno escolar seguro."
+    },
+    {
+      "tema": "ciberbullying",
+      "pregunta": "¿Qué se puede hacer para protegerse del ciberbullying?",
+      "opciones": [
+        "Responder con agresión y confrontación cuando se es víctima de ciberbullying.",
+        "Compartir contraseñas personales con amigos de confianza.",
+        "Evitar el uso de las redes sociales y el internet en general.",
+        "Ser selectivo con la información personal compartida en línea."
+      ],
+      "respuesta_correcta": "Ser selectivo con la información personal compartida en línea.",
+      "explicacion": "Limitar la cantidad de información personal que compartes reduce el riesgo de ser víctima de ciberbullying."
+    },
+    {
+      "tema": "ciberbullying",
+      "pregunta": "¿Cuál es una forma de prevenir el bullying y el ciberbullying?",
+      "opciones": [
+        "Ser consciente de los demás y tratar a todas las personas con respeto.",
+        "Participar en conductas agresivas para defenderse.",
+        "Compartir información personal en línea.",
+        "Ignorar el problema y esperar que desaparezca."
+      ],
+      "respuesta_correcta": "Ser consciente de los demás y tratar a todas las personas con respeto.",
+      "explicacion": "Promover una cultura de respeto y empatía ayuda a prevenir tanto el bullying como el ciberbullying."
+    },
+    {
+      "tema": "ciberbullying",
+      "pregunta": "¿Cuál de las siguientes acciones NO es una forma de ciberbullying?",
+      "opciones": [
+        "Crear un perfil falso para acosar a alguien en línea.",
+        "Enviar mensajes de odio a través de las redes sociales.",
+        "Compartir imágenes íntimas de alguien sin su consentimiento.",
+        "Jugar videojuegos en línea con amigos."
+      ],
+      "respuesta_correcta": "Jugar videojuegos en línea con amigos.",
+      "explicacion": "El ciberbullying involucra acciones agresivas en línea como el acoso, mientras que jugar videojuegos en línea con amigos no se considera ciberbullying."
+    }
+  ]
+}
