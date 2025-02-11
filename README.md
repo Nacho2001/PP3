@@ -5,6 +5,7 @@ Lista de ramas:
 - web : Rama para la interfaz web
 - mobile : Rama para interfaz mobile
 - modelos : Rama para cargar codigo de referencia o de ejemplo
+- juego3d : Rama dedicada unicamente al la trivia en 3D
 
 Directorio maestro:
 PP3
@@ -14,6 +15,7 @@ Estructura de las ramas:
 - web: /PP3/web/
 - mobile: /PP3/mobile/
 - modelos: /PP3/modelos/
+- juego3d: /PP3/juego3d/
 
 Es importante mantener la estructura de las ramas para evitar conflictos cuando realicemos el merge
 (la unión de las ramas)
@@ -34,3 +36,6 @@ git clone https://github.com/Nacho2001/PP3.git -b "mobile"
 
 Clonar rama modelos:
 git clone https://github.com/Nacho2001/PP3.git -b "modelos"
+
+Clonar para juego3d:
+git clone https://github.com/Nacho2001/PP3.git -b "juego3d"

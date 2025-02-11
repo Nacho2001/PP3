@@ -1,1 +1,0 @@
-No colocar archivos fuera de carpeta api, utilizarla como directorio raiz

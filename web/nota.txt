@@ -1,1 +1,0 @@
-No dejar archivos fuera de la carpeta web, utilizar este como directorio raiz
