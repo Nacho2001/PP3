@@ -3,6 +3,7 @@ import LuzDireccional from "./LuzDireccional";
 /** Aporta iluminación a la escena */
 /** Sin iluminación, los paneles permanecen negros */
 const Iluminacion = () => {
+    // Con cada componente de ilumincación, solamente se debe indicar la posición
     return (
         <>
             <LuzDireccional posicion={"0 2 1.3"} />

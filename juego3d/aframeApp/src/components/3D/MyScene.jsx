@@ -5,6 +5,7 @@ import Tablero from './Tableros/Tablero';
 import TableroReglas from './Tableros/TableroReglas';
 import Iluminacion from './Luces/Iluminacion';
 import paneles from './Paneles/Paneles_respuesta/paneles_respuesta';
+import './BotonVR.css';
 
 const MyScene = () => {
     return (
