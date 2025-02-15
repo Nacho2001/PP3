@@ -2,21 +2,22 @@ import Carousel from 'react-bootstrap/Carousel';
 import Image1 from '../assets/Img_1.jpg';
 import Image2 from '../assets/Img_2.jpg';
 import Image3 from '../assets/Img_3.jpg';
+import image4 from '../assets/Img_4.jpg';
+import Menulateral from './Menu-lateral';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import CardPrimary from './CardPrimary';
 
 function IndividualCarousel() {
   return (
-    <Carousel>
+    <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', height:'100vh', justifyContent: 'center', gap: '30px' }}>
+    <CardPrimary />
+      <Carousel style={{ width: '50%' }}>
       <Carousel.Item interval={1000}>
         <img
           style={{ width: '100%', height: 'auto' }} // Establecer tamaño fijo
-          src={Image1}
+          src={image4}
           alt="First slide"
         />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={500}>
         <img
@@ -24,10 +25,6 @@ function IndividualCarousel() {
           src={Image2}
           alt="Second slide"
         />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
@@ -35,12 +32,11 @@ function IndividualCarousel() {
           src={Image3}
           alt="Third slide"
         />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-        </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+
+    </div>
+    
   );
 }
 
