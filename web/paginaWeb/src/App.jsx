@@ -2,7 +2,7 @@ import React from 'react';
 
 import Navbars from './components/Navbar';
 import IndividualCarousel from './components/Carousel';
-import BasicCard from './components/Card';
+import BasicCard from './components/CardSecundary';
 import BasicFooter from './components/Footer';
 
 function App() {
@@ -10,18 +10,26 @@ function App() {
     
     <div>
 
-      <Navbars></Navbars>
+      <Navbars />
+      <div style={{ height: '100vh', overflow: 'hidden' }}>
+        <IndividualCarousel />
+      </div>
 
-      <IndividualCarousel></IndividualCarousel>
-
-      <div className="container">
+      <div className="container" style={{ marginTop: '20px' }}>
 
         <div className="row m-4">
 
+        <div className="col-md-3">
+            <BasicCard 
+              titulocard="Enfermedades" 
+              texto="Acá se encontrará toda la información sobre las enfermedades de transmisión sexual."
+              seccion="Ir a las Enfermedades"
+            ></BasicCard>
+          </div>
           <div className="col-md-3">
             <BasicCard 
               titulocard="Salud" 
-              texto="Some quick example text to build on the card title and make up the bulk of the card's content."
+              texto="Acá se encontrará toda la información sobre la salud sexual que cada uno puede tener."
               seccion="Ir a la Salud"
             ></BasicCard>
           </div>
@@ -29,34 +37,25 @@ function App() {
           <div className="col-md-3">
             <BasicCard 
               titulocard="Anticonceptivos" 
-              texto="Some quick example text to build on the card title and make up the bulk of the card's content."
-              seccion="Ir a la Anticonceptivos"
+              texto="Acá se encontrará toda la información sobre los anticonceptivos."
+              seccion="Ir a los Anticonceptivos"
             ></BasicCard>
           </div>
 
           <div className="col-md-3">
             <BasicCard 
-              titulocard="ESI" 
-              texto="Some quick example text to build on the card title and make up the bulk of the card's content."
-              seccion="Ir a la ESI"
+              titulocard="Derechos y responsabilidades" 
+              texto="Acá se encontrará toda la información sobre los derechos y las responsabilidades."
+              seccion="Ir a los Derechos "
             ></BasicCard>
           </div>
-
-          <div className="col-md-3">
-            <BasicCard 
-              titulocard="Trivia" 
-              texto="Some quick example text to build on the card title and make up the bulk of the card's content."
-              seccion="Ir a la Trivia"
-            ></BasicCard>
-          </div>
-          
 
         </div>
         
       </div>
 
 
-      <BasicFooter></BasicFooter>
+      <BasicFooter />
 
     </div>
 

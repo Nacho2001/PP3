@@ -1,57 +1,21 @@
 import React from 'react'; 
-import { Menubar } from 'primereact/menubar';
-
-import 'primereact/resources/primereact.min.css';
-import 'primereact/resources/themes/saga-blue/theme.css';
-import 'primeicons/primeicons.css';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 export default function Navbars() {
-    const items = [
-        {
-            label: 'Inicio',
-            icon: 'pi pi-home'
-        },
-        {
-            label: 'Login',
-            icon: 'pi pi-user'
-        },
-        {
-            label: 'Información',
-            icon: 'pi pi-search',
-            items: [
-                {
-                    label: 'Enfermedes Sexuales',
-                    icon: 'pi pi-thumbtack'
-                },
-                {
-                    label: 'Sección',
-                    icon: 'pi pi-thumbtack'
-                },
-                {
-                    label: 'Anticonceptivos',
-                    icon: 'pi pi-thumbtack',
-                    items: [
-                        {
-                            label: 'Preservativo',
-                            icon: 'pi pi-thumbtack'
-                        },
-                        {
-                            label: 'Sección',
-                            icon: 'pi pi-thumbtack'
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            label: 'Trivia',
-            icon: 'pi pi-star'
-        }
-    ];
-
     return (
-        <div className="card">
-            <Menubar model={items} />
-        </div>
-    )
+    <>
+      <Navbar bg="dark" data-bs-theme="dark">
+        <Container>
+          <Navbar.Brand href="https://www.argentina.gob.ar/justicia/derechofacil/leysimple/educacion-sexual">ESI</Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Prueba</Nav.Link>
+            <Nav.Link href="#features">Prueba</Nav.Link>
+            <Nav.Link href="#pricing">Prueba</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+    </>
+  );
 }
