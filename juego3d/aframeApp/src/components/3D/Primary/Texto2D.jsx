@@ -2,7 +2,7 @@ import 'aframe';
 import { Entity } from 'aframe-react';
 import PropTypes from 'prop-types';
 
-const Text2D = (props) => {
+const Texto2D = (props) => {
     const { texto, posicion, rotacion, ancho, alinacion, reverso = false } = props;
     // Separar los valores de la posicion en tres variables: x, y, z y las convierte en valores numericos 
     const [x, y, z] = posicion.split(' ').map(Number);
@@ -23,7 +23,7 @@ const Text2D = (props) => {
 }
 
 // Declara tipos de las props
-Text2D.propTypes = {
+Texto2D.propTypes = {
     texto: PropTypes.string.isRequired,
     posicion: PropTypes.string.isRequired,
     rotacion: PropTypes.string.isRequired,
@@ -32,4 +32,4 @@ Text2D.propTypes = {
     reverso: PropTypes.bool
 };
 
-export default Text2D;
+export default Texto2D;

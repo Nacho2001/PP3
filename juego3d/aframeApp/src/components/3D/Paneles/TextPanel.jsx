@@ -1,7 +1,7 @@
 import 'aframe';
 import PropTypes from 'prop-types';
 import PanelSimple from '../Primary/PanelSimple';
-import Text2D from '../Primary/Text2D';
+import Texto2D from '../Primary/Texto2D';
 
 
 const TextPanel = ({posicion, rotacion, texto }) => {
@@ -12,7 +12,7 @@ const TextPanel = ({posicion, rotacion, texto }) => {
         <>
             <PanelSimple props={datosPanel} />
             {/*<Text2D props={[texto, posicion, rotacion, 2, 'center']} />*/}
-            <Text2D texto={texto} posicion={posicion} rotacion={rotacion} ancho={2} alinacion={'center'} />
+            <Texto2D texto={texto} posicion={posicion} rotacion={rotacion} ancho={2} alinacion={'center'} />
         </>
     )
 }

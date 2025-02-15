@@ -5,19 +5,25 @@ import Tablero from './Tableros/Tablero';
 import TableroReglas from './Tableros/TableroReglas';
 import Iluminacion from './Luces/Iluminacion';
 import paneles from './Paneles/Paneles_respuesta/paneles_respuesta';
-import './BotonVR.css';
+import './Styles.css';
+
+
 
 const MyScene = () => {
     return (
-        <Scene>
-            <Entity primitive="a-camera" position="0 1.6 0" />
-            <Iluminacion />
-            <Tablero />
-            {paneles.map((panel, i) => (
-                <TextPanel key={i} posicion={panel.posicion} rotacion={panel.rotacion} texto={panel.texto} />
-            ))}
-            <TableroReglas />
-        </Scene>
+        <>
+            <Scene device-orientation-permission-ui>
+                <Entity primitive="a-camera" look-controls position="0 1.6 0">
+                    <Entity primitive="a-cursor" color="white" />
+                </Entity>
+                <Iluminacion />
+                <Tablero />
+                {paneles.map((panel, i) => (
+                    <TextPanel key={i} posicion={panel.posicion} rotacion={panel.rotacion} texto={panel.texto} />
+                ))}
+                <TableroReglas />
+            </Scene>
+        </>
     );
 }
 
