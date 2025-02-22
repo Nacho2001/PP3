@@ -12,12 +12,14 @@ const Circulo = (props) => {
         <Entity 
             geometry={{
                 primitive: 'circle', 
-                radius: props.radio,
+                radiusInner: 0.0,
+                radiusOuter: props.radio,
                 thetaLength: props.progreso,
+                thetaStart: props.inicio ? props.inicio : 0
             }}
 
             material={{
-                color: 'blue',
+                color: props.color,
                 side: 'double',
             }}
             position={`${props.posicion}`}
@@ -27,7 +29,9 @@ const Circulo = (props) => {
 Circulo.propTypes = {
     posicion: PropTypes.arrayOf(PropTypes.number).isRequired,
     progreso: PropTypes.number.isRequired,
-    radio: PropTypes.number.isRequired
+    radio: PropTypes.number.isRequired,
+    color: PropTypes.string.isRequired,
+    inicio: PropTypes.number
 };
 
 export default Circulo;

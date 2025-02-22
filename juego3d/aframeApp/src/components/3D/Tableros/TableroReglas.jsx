@@ -10,16 +10,16 @@ const TableroReglas = () => {
             {
                 // Mapeo de tableros a desplegar
                 ObjetosReglas.tableros.map((tablero, i) => (
-                    <PanelSimple key={i} props={tablero}/>          
+                    <PanelSimple key={i} panelData={tablero}/>          
                 ))
             }
             {
                 // Mapeo de textos a mostrar
                 ObjetosReglas.textos.map((texto, i) => (
-                    <Texto2D key={i} texto={texto.texto} posicion={texto.posicion} rotacion={texto.rotacion} ancho={texto.ancho} alinacion={texto.alinacion} reverso />
+                    <Texto2D key={i} textData={texto} />
                 ))
             }
-            <Circulo progreso={360} posicion={"-2.32 2.55 2.09"} radio={0.2}/>
+            <Circulo progreso={360} posicion="-2.32 2.55 2.09" radio={0.1} color="blue"/>
         </>
     )
 }

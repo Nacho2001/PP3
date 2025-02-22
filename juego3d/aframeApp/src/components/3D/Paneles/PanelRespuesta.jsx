@@ -6,12 +6,13 @@ import Texto2D from '../Primary/Texto2D';
 
 const PanelRespuesta = ({posicion, rotacion, texto }) => {
     // Objeto con los datos del panel para pasar como props
-    const datosPanel = {"posicion": posicion, "rotacion": rotacion, color: "black", altura: 0.45, ancho: 1};
-
+    const panelData = {"posicion": posicion, "rotacion": rotacion, color: "black", altura: 0.45, ancho: 1};
+    const textData = { texto: texto, posicion: posicion, rotacion: rotacion, ancho: 2, alinacion: 'center' };
+    
     return (
         <>
-            <PanelSimple props={datosPanel} />
-            <Texto2D texto={texto} posicion={posicion} rotacion={rotacion} ancho={2} alinacion={'center'} />
+            <PanelSimple panelData={panelData} />
+            <Texto2D textData={textData} />
         </>
     )
 }
