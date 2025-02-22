@@ -6,9 +6,7 @@ import TableroReglas from './Tableros/TableroReglas';
 import Iluminacion from './Luces/Iluminacion';
 import paneles from './Paneles/panelesRespuesta.json';
 import './Styles.css';
-import Circulo from './Primary/Circulo';
 import { useState } from 'react';
-import Temp from './Temp';
 import BotonInicio from './BotonInicio';
 
 const MyScene = () => {
@@ -25,9 +23,10 @@ const MyScene = () => {
                 <Tablero />
                 {paneles.map((panel, i) => (
                     <PanelRespuesta key={i} panelData={panel} />
-                ))}
+                )) }
                 <TableroReglas />
-                <BotonInicio activo={tempActivo} setActivo={setTempActivo}/>
+
+                {/*<BotonInicio activo={tempActivo} setActivo={setTempActivo}/>*/}
                 {/*<Temp props={[tempActivo,setTempActivo]}/>*/}
             </Scene>
         </>

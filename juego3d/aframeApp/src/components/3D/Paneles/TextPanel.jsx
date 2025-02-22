@@ -3,16 +3,18 @@ import PanelSimple from "../Primary/PanelSimple";
 import PropTypes from 'prop-types';
 
 const TextPanel = (props) => {
+    // Recibe los datos del panel y texto de las props
+    const data = props.data;
     // Recibe atributo para el elemento Panel
-    const propsPanel = props.propsPanel;
+    const propsPanel = data[0];
     // Recibe atributo para el texto del panel
-    const propsText = props.propsTexto;
+    const propsText = data[1];
 
     return (
         <>
             {/** Envia los parámentros a los componentes */}
             <PanelSimple panelData={propsPanel} />
-            <Texto2D props={propsText} />
+            <Texto2D textData={propsText} />
         </>
     )
 }
@@ -20,7 +22,8 @@ const TextPanel = (props) => {
 // Define los tipos de las props
 TextPanel.propTypes = {
     propsPanel: PropTypes.object.isRequired,
-    propsTexto: PropTypes.object.isRequired,
+    propsText: PropTypes.object.isRequired,
+    data: PropTypes.object.isRequired,
 };
 
 // Exportación del componente

@@ -1,27 +1,44 @@
 import 'aframe';
 import PropTypes from 'prop-types';
-import PanelSimple from '../Primary/PanelSimple';
-import Texto2D from '../Primary/Texto2D';
+import TextPanel from './TextPanel';
 
 
-const PanelRespuesta = ({posicion, rotacion, texto }) => {
+const PanelRespuesta = (props) => {
+    const panelData = props.panelData;
     // Objeto con los datos del panel para pasar como props
-    const panelData = {"posicion": posicion, "rotacion": rotacion, color: "black", altura: 0.45, ancho: 1};
-    const textData = { texto: texto, posicion: posicion, rotacion: rotacion, ancho: 2, alinacion: 'center' };
+    const panel = [
+        // Datos del objeto panel
+        { 
+            posicion: panelData.posicion, 
+            rotacion: panelData.rotacion, 
+            color: "black", 
+            altura: 0.45, 
+            ancho: 1
+        },
+        // Datos del texto
+        { 
+            texto: panelData.texto, 
+            posicion: panelData.posicion, 
+            rotacion: panelData.rotacion, 
+            ancho: 2, 
+            alinacion: 'center' 
+        }
+    ];
     
     return (
         <>
-            <PanelSimple panelData={panelData} />
-            <Texto2D textData={textData} />
+            <TextPanel data={panel}/>
         </>
     )
 }
 
 // Define los tipos de las props enviadas
 PanelRespuesta.propTypes = {
-    posicion: PropTypes.string.isRequired,
-    rotacion: PropTypes.string.isRequired,
-    texto: PropTypes.string.isRequired,
+    panelData: PropTypes.shape({
+        posicion: PropTypes.string.isRequired,
+        rotacion: PropTypes.string.isRequired,
+        texto: PropTypes.string.isRequired,
+    }).isRequired,
 };
 
 export default PanelRespuesta;

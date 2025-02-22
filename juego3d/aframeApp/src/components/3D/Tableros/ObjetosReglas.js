@@ -39,6 +39,14 @@ const tableros = [
         color: "black", 
         posicion: "0 2.0 2.1", 
         rotacion: "0 180 0"
+    },
+    // Reloj
+    {
+        altura: 0.2,
+        ancho: 0.4,
+        color: "red",
+        posicion: "-2.32 2.55 2.09",
+        rotacion: "0 180 0"
     }
 ];
 
@@ -129,7 +137,7 @@ const textos = [
     // Tiempo en reloj
     {
         texto: `Tiempo`,
-        posicion: "-3.16 2.55 2.2",
+        posicion: "-3.16 2.55 2.19",
         rotacion: "0 0 0",
         ancho: 2,
         alinacion: 'left',
