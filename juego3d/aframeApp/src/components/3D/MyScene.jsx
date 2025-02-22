@@ -7,7 +7,7 @@ import Iluminacion from './Luces/Iluminacion';
 import paneles from './Paneles/Paneles_respuesta/paneles_respuesta';
 import './Styles.css';
 import Circulo from './Primary/Circulo';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const MyScene = () => {
     // Contador de segundos (tiempo total)
@@ -16,22 +16,34 @@ const MyScene = () => {
     const [progreso, setProgreso] = useState(360);
     // Tiempo transcurrido
     const [transcurrido, setTranscurrido] = useState(0);
+    // Interruptor de juego
+    const [activo, setActivo] = useState(false);
 
-    // Activa la cuenta regresiva con temporizador
-    function cuentaRegresiva(){
-        // Si el contador llegó a 0, se detiene
-        if (restante <= 0) return;
+    useEffect(() => {
+        // Interrumpe la ejecución si el tiempo llega a 0 o el juego está inactivo
+        if(!activo || restante <= 0) return;
 
         const intervalo = setInterval(() => {
-            // Disminuye 1 segundo el tiempo
             setRestante((prev) => prev - 1);
+            setProgreso((prev) => prev - 6);
+            setTranscurrido((prev) => prev + 6);
 
-            // Reduce 6 grados por segundo
-            setProgreso((prev) => prev -1);
-        })
+            if (restante <= 1){
+                clearInterval(intervalo);
+                setTimeout(() => setActivo(false), 1000);
+            }
+        }, 1000);
+    }, [ activo, restante ]);
 
-        return () => clearInterval(intervalo);
-    }
+    // Iniciar temproizador
+    const temp = () => {
+        if(!activo){
+            setRestante(60);
+            setProgreso(360);
+            setTranscurrido(0);
+            setActivo(true);
+        }
+    };
     return (
         <>
             <Scene device-orientation-permission-ui>
