@@ -21,9 +21,7 @@ const TextPanel = (props) => {
 
 // Define los tipos de las props
 TextPanel.propTypes = {
-    propsPanel: PropTypes.object.isRequired,
-    propsText: PropTypes.object.isRequired,
-    data: PropTypes.object.isRequired,
+    data: PropTypes.array.isRequired,
 };
 
 // Exportación del componente

@@ -1,27 +1,31 @@
 import TextPanel from "./Paneles/TextPanel";
 import propTypes from 'prop-types';
 
-const BotonInicio = (activo, setActivo) => {
+const BotonInicio = (props) => {
+    const { activo, setActivo } = props;
     const button = [{
-        posicion: "0 1.7 -0.7",
+        posicion: activo ? "0 1.6 -0.6" : "-0.058 1.6 -0.6",
         rotacion:"0 0 0",
         color: "black",
-        altura: 0.35,
-        ancho: 1,
+        altura: 0.1,
+        ancho: activo ? 0.35 : 0.25,
         events: {
             click: () => {
                 setActivo(true);
+                console.log(activo);
             }
         }
     },
     {
         texto: activo ? "En marcha" : "Iniciar",
-        posicion: "0.3 1.7 -0.80",
+        posicion: activo ? "0 1.6 -0.70" : "-0.045 1.6 -0.70",
         rotacion: "0 0 0",
+        ancho: 1,
+        alinacion: "center",
     }]
 
     return (
-        <TextPanel data={button}/>
+        <TextPanel data={button} />
     )
 }
 
