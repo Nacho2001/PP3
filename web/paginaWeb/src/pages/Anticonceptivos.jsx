@@ -5,15 +5,18 @@ import BasicFooter from '../components/Footer';
 import Template from '../components/Template';
 import BasicDemo from '../components/SimplesCard';
 import PreviewDemo from '../components/Image';
+import BackButton from '../components/BackButton';
 
 function Anticonceptivos() {
   return (
     
     <div className="container">
 
-      <Navbars></Navbars>
+      <Navbars />
+      <BackButton />
 
-      <BasicDemo titulo="El Preservativo: Tu Aliado en la Prevención de Embarazos y Enfermedades de Transmisión Sexual"
+      <BasicDemo titulo="Metodos antinconceptivos:
+       Tu Aliado en la Prevención de Embarazos y Enfermedades de Transmisión Sexual"
       parrafo="El preservativo, también conocido como condón, es uno de los métodos anticonceptivos más populares y efectivos disponibles en la actualidad. Además de prevenir embarazos no deseados, el preservativo es una barrera fundamental contra las enfermedades de transmisión sexual (ETS), haciendo que su uso sea crucial para la salud sexual y reproductiva."
       />
 
@@ -30,8 +33,6 @@ function Anticonceptivos() {
       <Template titulo="4. Fácil de Usar:" parrafo="No se necesita una visita al médico ni una receta para adquirir preservativos, y su uso es relativamente sencillo. Con un poco de práctica, cualquiera puede aprender a colocarlo correctamente." />
       
       <Template titulo="5. Sin Efectos Secundarios Hormonales:" parrafo="A diferencia de algunos otros métodos anticonceptivos, como las píldoras anticonceptivas o los dispositivos intrauterinos (DIU), los preservativos no alteran los niveles hormonales del cuerpo. Esto los hace ideales para personas que desean evitar efectos secundarios hormonales." />  
-
-      <BasicFooter></BasicFooter>
 
     </div>
 

@@ -9,26 +9,34 @@ import CardPrimary from './CardPrimary';
 
 function IndividualCarousel() {
   return (
-    <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', height:'100vh', justifyContent: 'center', gap: '30px' }}>
+    <div style={{display: 'flex',
+      flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'center',
+      gap: '30px',
+      flexWrap: 'wrap', 
+      width: '100%',
+      maxWidth: '1200px', 
+      margin: 'auto', }}>
     <CardPrimary />
-      <Carousel style={{ width: '50%' }}>
+      <Carousel style={{ width: '80%' }}>
       <Carousel.Item interval={1000}>
         <img
-          style={{ width: '100%', height: 'auto' }} // Establecer tamaño fijo
+          style={{ width: '100%', height: 'auto', objectFit: "cover" }}
           src={image4}
           alt="First slide"
         />
       </Carousel.Item>
       <Carousel.Item interval={500}>
         <img
-          style={{ width: '100%', height: 'auto' }} // Establecer tamaño fijo
+          style={{ width: '100%', height: 'auto' }}
           src={Image2}
           alt="Second slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
-          style={{ width: '100%', height: 'auto' }} // Establecer tamaño fijo
+          style={{ width: '100%', height: 'auto' }}
           src={Image3}
           alt="Third slide"
         />
