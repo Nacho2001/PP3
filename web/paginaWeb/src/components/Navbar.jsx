@@ -20,7 +20,7 @@ export default function Navbars() {
             <Nav.Link href="#home" style={linkStyleColor}>Inicio</Nav.Link>
             <Nav.Link href="#features" style={linkStyleColor}>Articulos</Nav.Link>
             <Nav.Link href="#pricing" style={linkStyleColor}>Sobre Nosotros</Nav.Link>
-            <Nav.Link href="#" style={linkStyleColor}>Sobre Accesibilidad</Nav.Link>
+            <Nav.Link href="#" style={linkStyleColor}>Jugar</Nav.Link>
           </Nav>
 
           <Nav>

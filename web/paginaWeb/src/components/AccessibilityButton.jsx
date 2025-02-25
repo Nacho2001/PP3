@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 // Importar solo iconos que existen en la librería
 import {
-  PersonFill,
   Type,
   MoonFill,
   SunFill,
@@ -9,16 +8,24 @@ import {
   PersonArmsUp,
 } from "react-bootstrap-icons";
 import { Button, Offcanvas, Form } from "react-bootstrap";
+import { AccessibilityContext } from "../context/AccessibilityContext";
 
 const AccessibilityButton = () => {
-  const [show, setShow] = useState(false);
-  const [fontSize, setFontSize] = useState("normal");
-  const [contrast, setContrast] = useState("normal");
-  const [theme, setTheme] = useState("light");
-  const [simplifiedNav, setSimplifiedNav] = useState(false);
+  const {
+    theme,
+    setTheme,
+    contrast,
+    setContrast,
+    fontSize,
+    setFontSize,
+    simplifiedNav,
+    setSimplifiedNav,
+    show,
+    setShow
+  } = useContext(AccessibilityContext);
 
-  const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+  const handleClose = () => setShow(false);
 
   const changeFontSize = (size) => {
     setFontSize(size);
@@ -216,7 +223,7 @@ const AccessibilityButton = () => {
                   color: contrast === "normal" ? "#fff" : "#000",
                 }}
               >
-                Normal
+                Alto
               </div>
               <div
                 style={{
@@ -224,7 +231,7 @@ const AccessibilityButton = () => {
                   color: contrast === "high" ? "#fff" : "#9e9e9e",
                 }}
               >
-                Alto
+                Normal
               </div>
             </div>
           </div>
@@ -287,6 +294,7 @@ const AccessibilityButton = () => {
           filter: grayscale(100%) contrast(120%);
         }
 
+
         /* Estilos adicionales para tema oscuro */
         .dark-theme .card {
           background-color: #1e1e1e;
@@ -309,7 +317,6 @@ const AccessibilityButton = () => {
   /* Ejemplo: reduce opciones o cambia el estilo del menú */
   background-color: #f0f0f0;
   font-size: 1.2rem;
-  /* Otras reglas que simplifiquen la interfaz */
 }
         `}
       </style>

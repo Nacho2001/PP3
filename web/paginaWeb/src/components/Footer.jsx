@@ -1,5 +1,5 @@
 import React from 'react';
-import './EstilosFooter.css';
+import '../estilos-componentes/EstilosFooter.css';
 
 function BasicFooter() {
   return (

@@ -1,9 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
-import Image1 from '../assets/Img_1.jpg';
 import Image2 from '../assets/Img_2.jpg';
 import Image3 from '../assets/Img_3.jpg';
 import image4 from '../assets/Img_4.jpg';
-import Menulateral from './Menu-lateral';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CardPrimary from './CardPrimary';
 

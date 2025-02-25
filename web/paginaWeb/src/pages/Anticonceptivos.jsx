@@ -1,41 +1,134 @@
-import React from 'react';
-
+import React, { useContext, useEffect, useState } from 'react';
+import { Container, Row, Col, Nav } from 'react-bootstrap';
 import Navbars from '../components/Navbar';
-import BasicFooter from '../components/Footer';
-import Template from '../components/Template';
-import BasicDemo from '../components/SimplesCard';
-import PreviewDemo from '../components/Image';
 import BackButton from '../components/BackButton';
+import CarouselAnticonceptivos from '../components/CarouselAnticonceptivos';
+import anticonceptivosData from '../informacionUtil/anticonceptivosData';
+import { AccessibilityContext } from '../context/AccessibilityContext';
 
 function Anticonceptivos() {
-  return (
-    
-    <div className="container">
+  const { theme, contrast, fontSize, simplifiedNav } = useContext(AccessibilityContext);
 
-      <Navbars />
+  useEffect(() => {
+    document.body.classList.toggle('high-contrast', contrast === 'high');
+    document.body.classList.toggle('dark-theme', theme === 'dark');
+    document.documentElement.style.fontSize = fontSize === 'large' ? '120%' : fontSize === 'larger' ? '140%' : '100%';
+  }, [contrast, fontSize, theme]);
+
+  return (
+    <div className={`min-vh-100  ${theme} ${contrast}`}>
       <BackButton />
 
-      <BasicDemo titulo="Metodos antinconceptivos:
-       Tu Aliado en la Prevención de Embarazos y Enfermedades de Transmisión Sexual"
-      parrafo="El preservativo, también conocido como condón, es uno de los métodos anticonceptivos más populares y efectivos disponibles en la actualidad. Además de prevenir embarazos no deseados, el preservativo es una barrera fundamental contra las enfermedades de transmisión sexual (ETS), haciendo que su uso sea crucial para la salud sexual y reproductiva."
-      />
+      <Container className="py-5">
+        <h1 className="text-center mb-5 text-primary">Métodos Anticonceptivos</h1>
 
-      <PreviewDemo></PreviewDemo>
+        {/* Carrusel centrado */}
+        <Row className="justify-content-center mb-4">
+          <Col md={8} className="d-flex justify-content-center">
+            <CarouselAnticonceptivos />
+          </Col>
+        </Row>
 
-      <Template titulo="¿Cómo Funciona?" parrafo="El principio detrás del preservativo es simple pero efectivo. Es una delgada funda de látex, poliuretano o poliisopreno que se coloca sobre el pene erecto o en el interior de la vagina para recoger el semen durante la eyaculación. De esta manera, el semen no tiene contacto directo con el óvulo, lo que evita la fertilización y, por ende, el embarazo." />
+        <Row>
+          {/* Barra de navegación lateral */}
+          <Col md={3} className="d-none d-md-block">
+        <Nav className={`flex-column sticky-top p-3 rounded shadow-sm ${
+          theme === 'dark' ? 'bg-dark' : 'bg-white'
+        } ${simplifiedNav ? 'simplified-nav' : ''}`} 
+          style={{ top: "20px" }}>
+          {anticonceptivosData.map((metodo) => (
+            <Nav.Link 
+              key={metodo.id} 
+              href={`#${metodo.id}`} 
+              className={`fw-bold ${
+                theme === 'dark' ? 'text-light' : 'text-dark'
+              }`}>
+              {metodo.nombre}
+            </Nav.Link>
+          ))}
+        </Nav>
+      </Col>
 
-      <Template titulo="1. Efectividad Anticonceptiva:" parrafo="Los preservativos son altamente efectivos cuando se usan correctamente. Aunque ningún método anticonceptivo es infalible, el preservativo tiene una tasa de eficacia significativamente alta cuando se usa de manera consistente y correcta." />
+          {/* Contenido principal */}
+          <Col md={9}>
+            {anticonceptivosData.map((metodo) => (
+              <section key={metodo.id} id={metodo.id}  className={`mb-5 p-4 rounded shadow-sm ${
+                theme === 'dark' ? 'bg-dark text-light' : 'bg-white'}`}>
+                <h2 className="text-primary">{metodo.nombre}</h2>
+                <p><strong>Descripción:</strong> {metodo.descripcion}</p>
+                <p><strong>Uso:</strong> {metodo.uso}</p>
+                <p><strong>Efectividad:</strong> {metodo.efectividad}</p>
+                <p><strong>Previene ITS:</strong> {metodo.previeneIts}</p>
+                <p><strong>Frecuencia de uso:</strong> {metodo.FrecuenciaDeUso}</p>
+                
+                <h3 className="mt-3 text-success">Ventajas</h3>
+                <ul>
+                  {metodo.ventajas.map((ventaja, index) => (
+                    <li key={index}>{ventaja}</li>
+                  ))}
+                </ul>
+                
+                <h3 className="mt-3 text-danger">Desventajas</h3>
+                <ul>
+                  {metodo.desventajas.map((desventaja, index) => (
+                    <li key={index}>{desventaja}</li>
+                  ))}
+                </ul>
+              </section>
+            ))}
+          </Col>
+        </Row>
+      </Container>
 
-      <Template titulo="2. Prevención de ETS:" parrafo="Además de prevenir embarazos, el preservativo es una barrera eficaz contra una amplia gama de enfermedades de transmisión sexual, como el VIH, la gonorrea, la clamidia y la sífilis. Esto lo convierte en una herramienta crucial para proteger la salud sexual." />
+      <style>
+      {`
+.anticonceptivos-page {
+  background-color: var(--background-color, #f8f9fa);
+  color: var(--text-color, #212529);
+  transition: all 0.3s ease;
+}
 
-      <Template titulo="3. Disponibilidad:" parrafo="Los preservativos están ampliamente disponibles en farmacias, supermercados y clínicas de salud, e incluso se distribuyen gratuitamente en muchos lugares. Esto los hace accesibles para personas de todas las edades y niveles socioeconómicos." />
+/* Tema oscuro */
+.dark-theme {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+}
 
-      <Template titulo="4. Fácil de Usar:" parrafo="No se necesita una visita al médico ni una receta para adquirir preservativos, y su uso es relativamente sencillo. Con un poco de práctica, cualquiera puede aprender a colocarlo correctamente." />
-      
-      <Template titulo="5. Sin Efectos Secundarios Hormonales:" parrafo="A diferencia de algunos otros métodos anticonceptivos, como las píldoras anticonceptivas o los dispositivos intrauterinos (DIU), los preservativos no alteran los niveles hormonales del cuerpo. Esto los hace ideales para personas que desean evitar efectos secundarios hormonales." />  
+.dark-theme .bg-white {
+  background-color: #1e1e1e !important;
+}
 
+/* Alto contraste */
+.high-contrast {
+  background-color: black !important;
+  color: yellow !important;
+}
+
+.high-contrast * {
+  border-color: yellow !important;
+}
+
+.high-contrast .bg-white,
+.high-contrast .bg-dark {
+  background-color: black !important;
+  color: yellow !important;
+}
+
+.high-contrast .text-primary {
+  color: yellow !important;
+}
+
+/* Navegación simplificada */
+.simplified-nav {
+  font-size: 1.2rem !important;
+}
+
+.simplified-nav .nav-link {
+  padding: 1rem !important;
+}
+`}
+      </style>
     </div>
-
   );
 }
 

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import Navbars from "../components/Navbar";
 import IndividualCarousel from "../components/Carousel";
 import BasicCard from "../components/CardSecundary";
@@ -13,7 +12,6 @@ import InfoESI from "../components/InfoEsi";
 function Home() {
   return (
     <div className="row m-4">
-      <Navbars />
       <div style={{ height: "100vh", overflow: "hidden" }}>
         <IndividualCarousel />
       </div>
@@ -64,7 +62,6 @@ function Home() {
           </div>
         </div>
       </div>
-      <BasicFooter />
     </div>
   );
 }
