@@ -1,17 +1,18 @@
-import React, { useState } from "react";
-import Navbars from "../components/Navbar";
-import IndividualCarousel from "../components/Carousel";
-import BasicCard from "../components/CardSecundary";
-import BasicFooter from "../components/Footer";
-import Img9 from "../assets/img/Img9.jpg";
-import Img6 from "../assets/img/Img6.jpeg";
+import React, { useContext } from "react";
 import Img1 from "../assets/img/Img1.jpg";
 import Img5 from "../assets/img/Img5.png";
+import Img6 from "../assets/img/Img6.jpeg";
+import Img9 from "../assets/img/Img9.jpg";
+import BasicCard from "../components/CardSecundary";
+import IndividualCarousel from "../components/Carousel";
 import InfoESI from "../components/InfoEsi";
+import { AccessibilityContext } from "../context/AccessibilityContext";
+import "./Home.css"
 
 function Home() {
+  const { highContrast, contrast } = useContext(AccessibilityContext);
   return (
-    <div className="row m-4">
+    <div className={`row m-4 ${highContrast ? "high-contrast" : ""}`}>
       <div style={{ height: "100vh", overflow: "hidden" }}>
         <IndividualCarousel />
       </div>

@@ -15,7 +15,7 @@ function CarouselDerechos() {
       {imageList.map((image, index) => {
         const imageName = imageKeys[index].replace("../assets/derechos", '').replace('.png', '');
         return (
-          <Carousel.Item key={index} interval={10000}>
+          <Carousel.Item key={index} interval={4000}>
             <img
               className={` img-fluid ${contrast === "high" ? "high-contrast-img" : ""}`}
               src={image.default}

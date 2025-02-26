@@ -1,0 +1,8 @@
+body.high-contrast .navbar.custom-navbar { /* Añade .custom-navbar para mayor especificidad */
+    background-color: black !important; /* !important para forzar la prioridad */
+}
+
+body.high-contrast .custom-navbar .navbar-brand,
+body.high-contrast .custom-navbar .nav-link {
+    color: yellow !important; /* !important para forzar la prioridad */
+}

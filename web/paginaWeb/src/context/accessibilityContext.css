@@ -1,0 +1,79 @@
+/* --- Variables por defecto (modo claro y contraste normal) --- */
+:root,
+body.light-theme {
+  --bg-color: #ffffff;
+  --text-color: #212529;
+  --link-color: rgba(0, 158, 115, 1);
+  --button-color: rgba(33, 150, 243, 1);
+}
+
+/* --- Modo oscuro --- */
+body.dark-theme {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --link-color: rgba(0, 158, 115, 0.7);
+  --button-color: rgba(33, 150, 243, 0.7);
+}
+  /* --- Alto contraste --- */
+  .high-contrast {
+    --bg-color: black;
+    --text-color: yellow;
+    --link-color: yellow;
+    --button-color: yellow;
+  }
+  
+  /* --- Aplicación global de variables --- */
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  
+  /* --- Navbar --- */
+  .navbar {
+    background-color: var(--bg-color) !important;
+  }
+
+.high-contrast .navbar {
+    background-color: black !important;
+}
+
+body.high-contrast .custom-navbar { /* Regla MÁS específica para .custom-navbar dentro de body.high-contrast */
+    background-color: black !important;
+}
+
+body.high-contrast .custom-navbar .navbar-brand,
+body.high-contrast .custom-navbar .nav-link {
+    color: yellow !important;
+}
+  
+  .navbar-brand,
+  .nav-link {
+    color: var(--link-color) !important;
+  }
+  
+  /* --- Botones --- */
+  .btn,
+  .button {
+    color: var(--button-color);
+    border-color: var(--button-color);
+  }
+  
+  /* --- Tamaños de fuente --- */
+  .font-size-normal {
+    font-size: 100%;
+  }
+  
+  .font-size-large {
+    font-size: 120%;
+  }
+  
+  .font-size-larger {
+    font-size: 140%;
+  }
+  
+  /* --- Ejemplo para navegación simplificada --- */
+  .simplified-nav nav {
+    background-color: #f0f0f0;
+    font-size: 1.2rem;
+  }
+  

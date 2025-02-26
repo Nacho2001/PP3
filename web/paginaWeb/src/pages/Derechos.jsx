@@ -54,25 +54,25 @@ function Derechos() {
               theme === 'dark' ? 'bg-dark' : 'bg-white'
             } ${simplifiedNav ? 'simplified-nav' : ''}`} 
             style={{ top: "20px" }}>
-              <Nav.Link href="#que-son" className={`fw-bold ${theme === 'dark' ? 'text-light' : 'text-dark'}`}>
+              <Nav.Link href="#que-son" className={`nombre fw-bold ${theme === 'dark' ? 'text-light' : 'text-dark'}`}>
                 ¿Qué son?
               </Nav.Link>
-              <Nav.Link href="#derechos-sexuales" className={`fw-bold ${theme === 'dark' ? 'text-light' : 'text-dark'}`}>
+              <Nav.Link href="#derechos-sexuales" className={`nombre fw-bold ${theme === 'dark' ? 'text-light' : 'text-dark'}`}>
                 Derechos Sexuales
               </Nav.Link>
-              <Nav.Link href="#derechos-reproductivos" className={`fw-bold ${theme === 'dark' ? 'text-light' : 'text-dark'}`}>
+              <Nav.Link href="#derechos-reproductivos" className={`nombre fw-bold ${theme === 'dark' ? 'text-light' : 'text-dark'}`}>
                 Derechos Reproductivos
               </Nav.Link>
-              <Nav.Link href="#cuales-son" className={`fw-bold ${theme === 'dark' ? 'text-light' : 'text-dark'}`}>
+              <Nav.Link href="#cuales-son" className={`nombre fw-bold ${theme === 'dark' ? 'text-light' : 'text-dark'}`}>
                 ¿Cuáles son los derechos?
               </Nav.Link>
-              <Nav.Link href="#marco-legislativo" className={`fw-bold ${theme === 'dark' ? 'text-light' : 'text-dark'}`}>
+              <Nav.Link href="#marco-legislativo" className={`nombre fw-bold ${theme === 'dark' ? 'text-light' : 'text-dark'}`}>
                 Marco legislativo en Argentina
               </Nav.Link>
-              <Nav.Link href="#importancia-esi" className={`fw-bold ${theme === 'dark' ? 'text-light' : 'text-dark'}`}>
+              <Nav.Link href="#importancia-esi" className={`nombre fw-bold ${theme === 'dark' ? 'text-light' : 'text-dark'}`}>
                 Importancia de la ESI
               </Nav.Link>
-              <Nav.Link href="#conclusion" className={`fw-bold ${theme === 'dark' ? 'text-light' : 'text-dark'}`}>
+              <Nav.Link href="#conclusion" className={`nombre fw-bold ${theme === 'dark' ? 'text-light' : 'text-dark'}`}>
                 Conclusión
               </Nav.Link>
             </Nav>

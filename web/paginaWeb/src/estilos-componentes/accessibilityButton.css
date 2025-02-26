@@ -1,0 +1,55 @@
+.high-contrast .bi-person-arms-up {
+  fill: yellow;
+  color: yellow;
+}
+.high-contrast button.btn.btn-primary {
+  background-color: black;
+  color: yellow;
+}
+button.btn.btn-primary {
+  background-color: rgb(13, 110, 253);
+  color: rgb(255, 255, 255);
+}
+.bi-person-arms-up {
+  fill: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+}
+ .high-contrast {
+   background-color: black !important;
+   color: white !important;
+ }
+ 
+ .high-contrast a, .high-contrast button, .high-contrast .nav-link {
+   background-color: black !important;
+   color: yellow !important;
+   border: 1px solid yellow !important;
+ }
+ 
+ .high-contrast img {
+   filter: grayscale(100%) contrast(120%);
+ }
+
+
+ /* Estilos adicionales para tema oscuro */
+ .dark-theme .card {
+   background-color: #1e1e1e;
+   color: #e0e0e0;
+ }
+
+ .dark-theme .navbar {
+   background-color: #1e1e1e !important;
+ }
+
+ .dark-theme .nav-link {
+   color: #e0e0e0 !important;
+ }
+
+ .dark-theme .btn-primary {
+   background-color: #0d6efd;
+   border-color: #0d6efd;
+ }
+   .simplified-nav nav {
+/* Ejemplo: reduce opciones o cambia el estilo del menú */
+background-color: #f0f0f0;
+font-size: 1.2rem;
+}

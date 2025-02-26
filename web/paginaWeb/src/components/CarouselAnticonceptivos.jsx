@@ -15,7 +15,7 @@ function CarouselAnticonceptivos() {
         {imageList.map((image, index) => {
           const imageName = imageKeys[index].replace("../assets/anticonceptivos", '').replace('.png', '')
           return (
-            <Carousel.Item key={index} interval={10000000000000}>
+            <Carousel.Item key={index} interval={4000}>
               <img
                 className={`img-fluid ${
                   contrast === "high"? "high-contrast-img" : ""

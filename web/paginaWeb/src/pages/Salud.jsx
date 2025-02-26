@@ -23,15 +23,25 @@ import BackButton from '../components/BackButton';
 import CarouselSalud from '../components/CarouselSalud'; // Asegúrate de tener este componente
 import saludData from '../informacionUtil/saludData'; // Asegúrate de tener este archivo de datos
 import { AccessibilityContext } from '../context/AccessibilityContext';
+import "./pages.css"
 
 function Salud() {
-  const { theme, contrast, simplifiedNav } = useContext(AccessibilityContext);
+  const { theme, contrast, simplifiedNav, fontSize } = useContext(AccessibilityContext);
 
   useEffect(() => {
-    document.body.classList.toggle('high-contrast', contrast === 'high');
-    document.body.classList.toggle('dark-theme', theme === 'dark');
-  }, [contrast, theme]);
-
+    if (contrast === "high") {
+      document.body.classList.add("high-contrast");
+    } else {
+      document.body.classList.remove("high-contrast");
+    }
+    if (theme === "dark") {
+      document.body.classList.add("dark-theme");
+    } else {
+      document.body.classList.remove("dark-theme");
+    }
+    document.documentElement.style.fontSize =
+      fontSize === "large" ? "120%" : fontSize === "larger" ? "140%" : "100%";
+  }, [contrast, fontSize, theme]);
   return (
     <div className={`min-vh-100 ${theme} ${contrast}`}>
       <BackButton />
@@ -57,7 +67,7 @@ function Salud() {
                 <Nav.Link 
                   key={tema.id} 
                   href={`#${tema.id}`} 
-                  className={`fw-bold ${
+                  className={`nombre fw-bold ${
                     theme === 'dark' ? 'text-light' : 'text-dark'
                   }`}>
                   {tema.nombre}

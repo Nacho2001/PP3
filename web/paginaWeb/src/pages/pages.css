@@ -1,0 +1,46 @@
+/* Estilos generales para las páginas */
+.page-container {
+    min-height: 100vh;
+    padding: 2rem;
+    transition: all 0.3s ease;
+  }
+  
+  /* Tema oscuro */
+  .dark-theme {
+    background-color: #121212 !important;
+    color: #e0e0e0 !important;
+  }
+  
+  .dark-theme .bg-white {
+    background-color: #1e1e1e !important;
+  }
+  
+  /* Alto contraste */
+  .high-contrast {
+    background-color: black !important;
+    color: yellow !important;
+  }
+  
+  .high-contrast * {
+    border-color: yellow !important;
+  }
+  
+  .high-contrast .bg-white,
+  .high-contrast .bg-dark .nombre {
+    background-color: black !important;
+    color: yellow !important;
+  }
+  
+  .high-contrast .text-primary {
+    color: yellow !important;
+  }
+  
+  /* Navegación simplificada */
+  .simplified-nav {
+    font-size: 1.2rem !important;
+  }
+  
+  .simplified-nav .nav-link {
+    padding: 1rem !important;
+  }
+  

@@ -9,6 +9,7 @@ import {
 } from "react-bootstrap-icons";
 import { Button, Offcanvas, Form } from "react-bootstrap";
 import { AccessibilityContext } from "../context/AccessibilityContext";
+import "../estilos-componentes/AccessibilityButton.css";
 
 const AccessibilityButton = () => {
   const {
@@ -21,7 +22,7 @@ const AccessibilityButton = () => {
     simplifiedNav,
     setSimplifiedNav,
     show,
-    setShow
+    setShow,
   } = useContext(AccessibilityContext);
 
   const handleShow = () => setShow(true);
@@ -35,24 +36,10 @@ const AccessibilityButton = () => {
 
   const changeContrast = (mode) => {
     setContrast(mode);
-    if (mode === "high") {
-      document.body.classList.remove("high-contrast");
-    } else {
-      document.body.classList.add("high-contrast");
-    }
   };
 
-  const changeTheme = (theme) => {
-    setTheme(theme);
-    if (theme === "light") {
-      document.body.style.backgroundColor = "rgb(255, 255, 255)";
-      document.body.style.color = "#212529";
-      document.body.classList.remove("dark-theme");
-    } else if (theme === "dark") {
-      document.body.style.backgroundColor = "#121212";
-      document.body.style.color = "#e0e0e0";
-      document.body.classList.add("dark-theme");
-    }
+  const changeTheme = (newTheme) => {
+    setTheme(newTheme);
   };
 
   const buttonStyle = {
@@ -95,10 +82,10 @@ const AccessibilityButton = () => {
     position: "absolute",
     width: "50%",
     height: "85%",
-    backgroundColor: theme === "light" ? "#00a884" : "transparent",
+    backgroundColor: theme === "dark" ? "#00a884" : "transparent",
     borderRadius: "30px",
     transition: "transform 0.3s ease",
-    transform: theme === "light" ? "translateX(0)" : "translateX(100%)",
+    transform: theme === "dark" ? "translateX(0)" : "translateX(100%)",
     top: "7.5%",
     left: 0,
   };
@@ -154,24 +141,24 @@ const AccessibilityButton = () => {
             </h5>
             <div
               style={toggleContainerStyle}
-              onClick={() => changeTheme(theme === "light" ? "dark" : "light")}
+              onClick={() => changeTheme(theme === "dark" ? "light" : "dark")}
             >
               <div className="slider" style={activeSliderStyle}></div>
               <div
                 style={{
                   ...toggleButtonStyle,
-                  color: theme === "light" ? "#fff" : "#000",
+                  color: theme === "dark" ? "#fff" : "#000",
                 }}
               >
-                Claro
+                Oscuro
               </div>
               <div
                 style={{
                   ...toggleButtonStyle,
-                  color: theme === "dark" ? "#000" : "#9e9e9e",
+                  color: theme === "light" ? "#000" : "#9e9e9e",
                 }}
               >
-                Oscuro
+                Claro
               </div>
             </div>
           </div>
@@ -261,7 +248,7 @@ const AccessibilityButton = () => {
                   color: !simplifiedNav ? "#fff" : "#000",
                 }}
               >
-                Off
+                On
               </div>
               <div
                 style={{
@@ -269,57 +256,12 @@ const AccessibilityButton = () => {
                   color: simplifiedNav ? "#fff" : "#9e9e9e",
                 }}
               >
-                On
+                Off
               </div>
             </div>
           </div>
         </Offcanvas.Body>
       </Offcanvas>
-
-      {/* Estilos CSS para el modo de alto contraste */}
-      <style>
-        {`
-        .high-contrast {
-          background-color: black !important;
-          color: white !important;
-        }
-        
-        .high-contrast a, .high-contrast button, .high-contrast .nav-link {
-          background-color: black !important;
-          color: yellow !important;
-          border: 1px solid yellow !important;
-        }
-        
-        .high-contrast img {
-          filter: grayscale(100%) contrast(120%);
-        }
-
-
-        /* Estilos adicionales para tema oscuro */
-        .dark-theme .card {
-          background-color: #1e1e1e;
-          color: #e0e0e0;
-        }
-
-        .dark-theme .navbar {
-          background-color: #1e1e1e !important;
-        }
-
-        .dark-theme .nav-link {
-          color: #e0e0e0 !important;
-        }
-
-        .dark-theme .btn-primary {
-          background-color: #0d6efd;
-          border-color: #0d6efd;
-        }
-          .simplified-nav nav {
-  /* Ejemplo: reduce opciones o cambia el estilo del menú */
-  background-color: #f0f0f0;
-  font-size: 1.2rem;
-}
-        `}
-      </style>
     </>
   );
 };

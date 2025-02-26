@@ -1,7 +1,10 @@
+import { useContext } from "react";
+import { AccessibilityContext } from "../context/AccessibilityContext";
+
 function InfoESI() {
+  const { highContrast } = useContext(AccessibilityContext)
   return (
-    <div className="container my-4">
-      {/* Primer bloque de texto con imagen a la derecha */}
+    <div className={`container my-4 ${highContrast ? "high-contrast" : ""}`}>
       <div className="row">
         <div className="col-md-8">
           <h2 className="text-center">
@@ -48,7 +51,6 @@ function InfoESI() {
         </div>
       </div>
 
-      {/* Segundo bloque de contenido con imagen a la izquierda */}
       <div className="row mt-4">
         <div className="col-md-4">
           <img
@@ -112,7 +114,6 @@ function InfoESI() {
         </p>
       </div>
 
-      {/* Agregar aquí el nuevo bloque con la información adicional */}
       <div className="mt-4">
         <h4>Para entender el alcance de la Educación Sexual Integral (ESI)</h4>
         <p className="text-justify">

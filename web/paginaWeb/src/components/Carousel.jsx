@@ -18,14 +18,14 @@ function IndividualCarousel() {
       margin: 'auto', }}>
     <CardPrimary />
       <Carousel style={{ width: '80%' }}>
-      <Carousel.Item interval={1000}>
+      <Carousel.Item interval={4000}>
         <img
           style={{ width: '100%', height: 'auto', objectFit: "cover" }}
           src={image4}
           alt="First slide"
         />
       </Carousel.Item>
-      <Carousel.Item interval={500}>
+      <Carousel.Item interval={4000}>
         <img
           style={{ width: '100%', height: 'auto' }}
           src={Image2}

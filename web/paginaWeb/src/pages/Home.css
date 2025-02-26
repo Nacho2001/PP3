@@ -1,0 +1,15 @@
+.high-contrast {
+    background-color: black;
+    color: yellow; /* Texto amarillo en modo alto contraste */
+  }
+  
+  .high-contrast h2, 
+  .high-contrast h4, 
+  .high-contrast h6 {
+    color: yellow;
+  }
+  
+  .high-contrast p,
+  .high-contrast li {
+    color: yellow;
+  }

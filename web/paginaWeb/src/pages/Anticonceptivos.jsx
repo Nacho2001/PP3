@@ -1,17 +1,26 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { Container, Row, Col, Nav } from 'react-bootstrap';
-import Navbars from '../components/Navbar';
 import BackButton from '../components/BackButton';
 import CarouselAnticonceptivos from '../components/CarouselAnticonceptivos';
 import anticonceptivosData from '../informacionUtil/anticonceptivosData';
 import { AccessibilityContext } from '../context/AccessibilityContext';
+import "./pages.css"
 
 function Anticonceptivos() {
+ 
   const { theme, contrast, fontSize, simplifiedNav } = useContext(AccessibilityContext);
 
   useEffect(() => {
-    document.body.classList.toggle('high-contrast', contrast === 'high');
-    document.body.classList.toggle('dark-theme', theme === 'dark');
+    if(contrast === 'high') {
+      document.body.classList.add('high-contrast');
+    } else { 
+      document.body.classList.remove('high-contrast'); 
+    }
+    if (theme === 'dark') {
+      document.body.classList.add('dark-theme');
+    } else {
+      document.body.classList.remove('dark-theme');
+    }
     document.documentElement.style.fontSize = fontSize === 'large' ? '120%' : fontSize === 'larger' ? '140%' : '100%';
   }, [contrast, fontSize, theme]);
 
@@ -40,7 +49,7 @@ function Anticonceptivos() {
             <Nav.Link 
               key={metodo.id} 
               href={`#${metodo.id}`} 
-              className={`fw-bold ${
+              className={`nombre fw-bold ${
                 theme === 'dark' ? 'text-light' : 'text-dark'
               }`}>
               {metodo.nombre}
@@ -80,54 +89,7 @@ function Anticonceptivos() {
         </Row>
       </Container>
 
-      <style>
-      {`
-.anticonceptivos-page {
-  background-color: var(--background-color, #f8f9fa);
-  color: var(--text-color, #212529);
-  transition: all 0.3s ease;
-}
 
-/* Tema oscuro */
-.dark-theme {
-  background-color: #121212 !important;
-  color: #e0e0e0 !important;
-}
-
-.dark-theme .bg-white {
-  background-color: #1e1e1e !important;
-}
-
-/* Alto contraste */
-.high-contrast {
-  background-color: black !important;
-  color: yellow !important;
-}
-
-.high-contrast * {
-  border-color: yellow !important;
-}
-
-.high-contrast .bg-white,
-.high-contrast .bg-dark {
-  background-color: black !important;
-  color: yellow !important;
-}
-
-.high-contrast .text-primary {
-  color: yellow !important;
-}
-
-/* Navegación simplificada */
-.simplified-nav {
-  font-size: 1.2rem !important;
-}
-
-.simplified-nav .nav-link {
-  padding: 1rem !important;
-}
-`}
-      </style>
     </div>
   );
 }
