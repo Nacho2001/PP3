@@ -9,7 +9,6 @@ const TextPanel = (props) => {
     const propsPanel = data[0];
     // Recibe atributo para el texto del panel
     const propsText = data[1];
-
     return (
         <>
             {/** Envia los parámentros a los componentes */}

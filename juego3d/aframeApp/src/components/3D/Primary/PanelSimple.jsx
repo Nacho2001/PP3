@@ -4,9 +4,6 @@ import PropTypes from 'prop-types';
 /** Crea un panel fino, de tamaño variable */
 const PanelSimple = (props) => {
     const panelData = props.panelData;
-    function changeColor(){
-        panelData.color = 'red';
-    }
     return (
         <Entity 
             // Se crea un objeto panel a partir de un box, con dimensiones específicas
@@ -17,9 +14,8 @@ const PanelSimple = (props) => {
             position={ panelData.posicion }
             // Rotación del objeto
             rotation={ panelData.rotacion }
-            // Eventos de interacción
-            //events={ panelData.events ? console.log(panelData.events) : null }
-            events={{ click: changeColor() }}
+            // Animación del panel
+            animation={ panelData.animacion }
         />
     )
 }
