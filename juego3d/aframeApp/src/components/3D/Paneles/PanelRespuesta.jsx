@@ -11,7 +11,7 @@ const PanelRespuesta = (props) => {
         { 
             posicion: panelData.posicion, 
             rotacion: panelData.rotacion, 
-            color: "black", 
+            color: panelData.color ? panelData.color : "black", 
             altura: 0.45, 
             ancho: 1
         },
@@ -38,6 +38,7 @@ PanelRespuesta.propTypes = {
         posicion: PropTypes.string.isRequired,
         rotacion: PropTypes.string.isRequired,
         texto: PropTypes.string.isRequired,
+        color: PropTypes.string
     }).isRequired,
 };
 
