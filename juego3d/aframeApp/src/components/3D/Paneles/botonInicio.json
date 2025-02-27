@@ -1,0 +1,16 @@
+[
+    {
+        "color": "black",
+        "altura": 0.45,
+        "ancho": 1,
+        "posicion": "0 0.9 -2", 
+        "rotacion": "0 0 0"
+    },
+    {
+        "texto": "Iniciar juego!", 
+        "posicion": "0 0.9 -2", 
+        "rotacion": "0 0 0", 
+        "ancho": 2, 
+        "alinacion": "center" 
+    }
+]

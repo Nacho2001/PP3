@@ -1,0 +1,182 @@
+[
+    {
+        "pregunta": "¿Qué significa la sigla ITS?",
+        "opciones": [
+            "Infecciones de Transmisión Sexual",
+            "Infecciones de Tratamiento Seguro",
+            "Inmunidad de Transmisión Sanguínea"
+        ],
+        "correcta": "Infecciones de Transmisión Sexual"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes es una ITS frecuente?",
+        "opciones": [
+            "Varicela",
+            "Gripe",
+            "Gonorrea"
+        ],
+        "correcta": "Gonorrea"
+    },
+    {
+        "pregunta": "¿Cómo se transmite principalmente la sífilis?",
+        "opciones": [
+            "Por compartir alimentos",
+            "Por relaciones sexuales sin uso de preservativo",
+            "Por picaduras de insectos"
+        ],
+        "correcta": "Por relaciones sexuales sin uso de preservativo"
+    },
+    {
+        "pregunta": "¿Qué bacteria causa la sífilis?",
+        "opciones": [
+            "Escherichia coli",
+            "Treponema pallidum",
+            "Staphylococcus aureus"
+        ],
+        "correcta": "Treponema pallidum"
+    },
+    {
+        "pregunta": "¿Cuál es un síntoma inicial de la sífilis?",
+        "opciones": [
+            "Fiebre alta",
+            "Dolor de garganta",
+            "Llaga o ampolla dura en los genitales, boca o ano"
+        ],
+        "correcta": "Llaga o ampolla dura en los genitales, boca o ano"
+    },
+    {
+        "pregunta": "¿Qué ITS puede causar infecciones en los genitales, el recto y la garganta?",
+        "opciones": [
+            "Gonorrea",
+            "Varicela",
+            "Hepatitis A"
+        ],
+        "correcta": "Gonorrea"
+    },
+    {
+        "pregunta": "¿Cuál es una forma común de transmisión del herpes genital?",
+        "opciones": [
+            "Compartir utensilios de comida",
+            "Tos y estornudos",
+            "Contacto sexual"
+        ],
+        "correcta": "Contacto sexual"
+    },
+    {
+        "pregunta": "¿Qué virus causa el herpes genital?",
+        "opciones": [
+            "Herpes simple",
+            "Virus de la hepatitis B",
+            "Virus de la hepatitis C"
+        ],
+        "correcta": "Herpes simple"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes ITS puede causar verrugas genitales?",
+        "opciones": [
+            "Gonorrea",
+            "HPV",
+            "Sífilis"
+        ],
+        "correcta": "HPV"
+    },
+    {
+        "pregunta": "¿Cuál es una forma efectiva de prevenir la mayoría de las ITS?",
+        "opciones": [
+            "Usar preservativo durante todas las relaciones sexuales",
+            "Lavarse las manos frecuentemente",
+            "Vacunarse contra la gripe"
+        ],
+        "correcta": "Usar preservativo durante todas las relaciones sexuales"
+    },
+    {
+        "pregunta": "¿Qué ITS puede ser asintomática tanto en hombres como en mujeres?",
+        "opciones": [
+            "Gripe",
+            "Hepatitis A",
+            "Clamidia"
+        ],
+        "correcta": "Clamidia"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes ITS tiene una vacuna disponible en el Calendario Nacional de Vacunación?",
+        "opciones": [
+            "Clamidia",
+            "Sífilis",
+            "HPV"
+        ],
+        "correcta": "HPV"
+    },
+    {
+        "pregunta": "¿Qué virus causa el VIH?",
+        "opciones": [
+            "Virus de la hepatitis C",
+            "Virus de la hepatitis B",
+            "Virus de inmunodeficiencia humana"
+        ],
+        "correcta": "Virus de inmunodeficiencia humana"
+    },
+    {
+        "pregunta": "¿Qué ITS puede transmitirse de madre a hijo durante el parto?",
+        "opciones": [
+            "Varicela",
+            "Gripe",
+            "Herpes genital"
+        ],
+        "correcta": "Herpes genital"
+    },
+    {
+        "pregunta": "¿Qué ITS puede causar erupciones en la piel y fiebre si no se trata a tiempo?",
+        "opciones": [
+            "Gripe",
+            "Sífilis",
+            "Varicela"
+        ],
+        "correcta": "Sífilis"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes ITS se puede controlar pero no curar completamente?",
+        "opciones": [
+            "VIH",
+            "Gonorrea",
+            "Clamidia"
+        ],
+        "correcta": "VIH"
+    },
+    {
+        "pregunta": "¿Cuál es un síntoma de la hepatitis B?",
+        "opciones": [
+            "Fiebre alta",
+            "Dolor de garganta",
+            "Ictericia"
+        ],
+        "correcta": "Ictericia"
+    },
+    {
+        "pregunta": "¿Qué ITS se puede transmitir principalmente a través de la sangre?",
+        "opciones": [
+            "Varicela",
+            "Gripe",
+            "Hepatitis C"
+        ],
+        "correcta": "Hepatitis C"
+    },
+    {
+        "pregunta": "¿Cuál es un síntoma común de la clamidia en las mujeres?",
+        "opciones": [
+            "Tos persistente",
+            "Secreción vaginal anormal",
+            "Fiebre alta"
+        ],
+        "correcta": "Secreción vaginal anormal"
+    },
+    {
+        "pregunta": "¿Cuál es una medida preventiva contra el HPV incluida en el Calendario Nacional de Vacunación?",
+        "opciones": [
+            "Evitar compartir alimentos",
+            "Lavado de manos frecuente",
+            "Vacunación"
+        ],
+        "correcta": "Vacunación"
+    }
+]

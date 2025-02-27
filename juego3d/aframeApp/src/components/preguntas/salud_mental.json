@@ -1,0 +1,182 @@
+[
+    {
+        "pregunta": "¿Qué es la salud mental?",
+        "opciones": [
+            "El bienestar físico, mental y social",
+            "La capacidad de funcionar de forma adecuada en la vida cotidiana",
+            "Todas son correctas"
+        ],
+        "correcta": "Todas son correctas"
+    },
+    {
+        "pregunta": "¿El cerebro adolescente es más susceptible al estrés?",
+        "opciones": [
+            "Sí, porque el cerebro adolescente está aún en desarrollo",
+            "No, porque el cerebro adolescente ha desarrollado mecanismos de afrontamiento del estrés",
+            "Depende de la personalidad del adolescente"
+        ],
+        "correcta": "Sí, porque el cerebro adolescente está aún en desarrollo"
+    },
+    {
+        "pregunta": "¿Cuáles son algunos signos de que una persona pueda estar experimentando problemas de salud mental?",
+        "opciones": [
+            "Cambios en el estado de ánimo, como la tristeza, la irritabilidad o la ansiedad",
+            "Cambios en el comportamiento, como el aislamiento, la dificultad para concentrarse o el aumento del riesgo de accidentes",
+            "Todas son correctas"
+        ],
+        "correcta": "Todas son correctas"
+    },
+    {
+        "pregunta": "¿Qué se puede hacer para prevenir los problemas de salud mental en los jóvenes?",
+        "opciones": [
+            "Factores genéticos",
+            "Factores ambientales, como el estrés, el trauma o el abuso",
+            "Todas son correctas"
+        ],
+        "correcta": "Todas son correctas"
+    },
+    {
+        "pregunta": "¿Cuáles son los signos y síntomas más comunes de la ansiedad?",
+        "opciones": [
+            "Insomnio, irritabilidad, dificultad para concentrarse",
+            "Ataque de pánico, agorafobia, fobia social",
+            "Todas son correctas"
+        ],
+        "correcta": "Todas son correctas"
+    },
+    {
+        "pregunta": "¿Cuáles son los signos y síntomas más comunes de la depresión?",
+        "opciones": [
+            "Insomnio, irritabilidad, dificultad para concentrarse",
+            "Desánimo, pérdida de interés en las actividades cotidianas, pensamientos de muerte",
+            "Todas son correctas"
+        ],
+        "correcta": "Todas son correctas"
+    },
+    {
+        "pregunta": "¿Qué es la terapia psicológica?",
+        "opciones": [
+            "Un método que ayuda a las personas a comprender y manejar sus pensamientos, emociones y comportamientos",
+            "Un tratamiento que utiliza medicamentos para tratar los trastornos mentales",
+            "Un proceso que combina terapia psicológica y medicamentos"
+        ],
+        "correcta": "Un método que ayuda a las personas a comprender y manejar sus pensamientos, emociones y comportamientos"
+    },
+    {
+        "pregunta": "¿Cuál es la actividad que puede ayudar a reducir el estrés y mejorar la salud mental?",
+        "opciones": [
+            "Ver televisión todo el día",
+            "Practicar ejercicio regularmente",
+            "Consumir grandes cantidades de cafeína"
+        ],
+        "correcta": "Practicar ejercicio regularmente"
+    },
+    {
+        "pregunta": "¿Cuál puede ser una clave para una comunicación efectiva en las relaciones interpersonales?",
+        "opciones": [
+            "No escuchar a los demás",
+            "Expresar solo tus propias opiniones",
+            "Practicar la empatía y escuchar activamente"
+        ],
+        "correcta": "Practicar la empatía y escuchar activamente"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes afirmaciones es clave para la salud mental?",
+        "opciones": [
+            "Ignorar las propias necesidades mejora el bienestar",
+            "Priorizar constantemente el trabajo sobre el descanso",
+            "Practicar el autocuidado regularmente es esencial"
+        ],
+        "correcta": "Practicar el autocuidado regularmente es esencial"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes actividades puede contribuir a la gestión del estrés en situaciones desafiantes?",
+        "opciones": [
+            "Evitar cualquier situación estresante",
+            "Aprender y practicar técnicas de manejo del estrés",
+            "Consumir alimentos altos en grasas"
+        ],
+        "correcta": "Aprender y practicar técnicas de manejo del estrés"
+    },
+    {
+        "pregunta": "¿Qué puede ayudar a reducir la sensación de soledad y mejorar la salud mental?",
+        "opciones": [
+            "Aislarse y evitar la interacción social",
+            "Participar en actividades sociales y construir conexiones significativas",
+            "Utilizar las redes sociales exclusivamente para la comunicación"
+        ],
+        "correcta": "Participar en actividades sociales y construir conexiones significativas"
+    },
+    {
+        "pregunta": "¿Cuál puede ser un síntoma de que alguien puede necesitar ayuda profesional para la salud mental?",
+        "opciones": [
+            "Experimentar estrés ocasional",
+            "Sentir tristeza persistente y falta de interés en actividades",
+            "Ocultar los sentimientos a los demás"
+        ],
+        "correcta": "Sentir tristeza persistente y falta de interés en actividades"
+    },
+    {
+        "pregunta": "¿Cuáles son algunas de las formas en que se puede ayudar a alguien que está teniendo problemas de salud mental?",
+        "opciones": [
+            "Practicar la gratitud y el pensamiento positivo",
+            "Ignorar las emociones y pensamientos",
+            "Enfocarse exclusivamente en lo negativo"
+        ],
+        "correcta": "Practicar la gratitud y el pensamiento positivo"
+    },
+    {
+        "pregunta": "¿Cuáles son algunas formas de combatir el estigma de la salud mental?",
+        "opciones": [
+            "Hablar sobre la salud mental de forma abierta y honesta",
+            "Desmentir los mitos y estereotipos sobre la salud mental",
+            "Todas son correctas"
+        ],
+        "correcta": "Todas son correctas"
+    },
+    {
+        "pregunta": "¿Un trastorno mental es una discapacidad?",
+        "opciones": [
+            "Sí, siempre",
+            "Depende del trastorno y su impacto en la vida diaria",
+            "Solo en situaciones extremas"
+        ],
+        "correcta": "Depende del trastorno y su impacto en la vida diaria"
+    },
+    {
+        "pregunta": "¿Qué afecciones de la salud mental son más comunes entre los adolescentes?",
+        "opciones": [
+            "Trastornos alimentarios",
+            "Ansiedad y depresión",
+            "Esquizofrenia"
+        ],
+        "correcta": "Ansiedad y depresión"
+    },
+    {
+        "pregunta": "¿Cómo pueden los padres apoyar la salud mental de sus hijos adolescentes?",
+        "opciones": [
+            "Fomentar la comunicación abierta",
+            "Ignorar los cambios de comportamiento",
+            "Establecer expectativas poco realistas"
+        ],
+        "correcta": "Fomentar la comunicación abierta"
+    },
+    {
+        "pregunta": "¿Son válidos los tests que existen en internet para detectar problemas de salud mental?",
+        "opciones": [
+            "Sí, siempre proporcionan resultados precisos",
+            "Algunos pueden ser útiles, pero muchos carecen de validez y precisión",
+            "Ninguna es correcta"
+        ],
+        "correcta": "Algunos pueden ser útiles, pero muchos carecen de validez y precisión"
+    },
+    {
+        "pregunta": "¿Por qué es importante reducir el consumo de estímulos visuales efímeros, como las redes sociales cuando se habla de salud mental?",
+        "opciones": [
+            "Porque puede aumentar el estrés y la ansiedad",
+            "Porque puede provocar problemas de sueño",
+            "Todas son correctas"
+        ],
+        "correcta": "Todas son correctas"
+    }
+]

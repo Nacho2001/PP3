@@ -1,0 +1,137 @@
+[
+    {
+        "pregunta": "¿Qué tipo de anticonceptivo es el preservativo?",
+        "opciones": [
+            "Un método barrera",
+            "Un método hormonal",
+            "Un método natural"
+        ],
+        "correcta": "Un método barrera"
+    },
+    {
+        "pregunta": "¿Cuál es el método anticonceptivo que reduce la posibilidad de contraer una ITS?",
+        "opciones": [
+            "El chip (implante sub dérmico)",
+            "La inyección",
+            "El preservativo"
+        ],
+        "correcta": "El preservativo"
+    },
+    {
+        "pregunta": "¿Por qué se debe apretar la punta del preservativo antes de desenrollarlo sobre el pene?",
+        "opciones": [
+            "No es necesario apretar la punta",
+            "Porque esto permite saber si está pinchado",
+            "Porque evita que quede aire que pueda romper el preservativo"
+        ],
+        "correcta": "Porque evita que quede aire que pueda romper el preservativo"
+    },
+    {
+        "pregunta": "¿Desde qué momento de la relación sexual hay que usar el preservativo?",
+        "opciones": [
+            "Antes de la penetración",
+            "Unos segundos antes de la eyaculación",
+            "Unos segundos después de la eyaculación"
+        ],
+        "correcta": "Antes de la penetración"
+    },
+    {
+        "pregunta": "¿Cómo se coloca el preservativo femenino?",
+        "opciones": [
+            "Se desenrolla sobre el pene",
+            "Cubre solamente la vulva",
+            "Se inserta en la vagina"
+        ],
+        "correcta": "Se inserta en la vagina"
+    },
+    {
+        "pregunta": "¿Cómo se puede comprobar que no estén pinchados los preservativos?",
+        "opciones": [
+            "Inflándolos",
+            "Llenándolos de agua",
+            "Tocando el envase, tiene que tener aire"
+        ],
+        "correcta": "Tocando el envase, tiene que tener aire"
+    },
+    {
+        "pregunta": "¿Se puede reutilizar un preservativo?",
+        "opciones": [
+            "Sí, todas las veces que haga falta",
+            "No, se usa una sola vez",
+            "Sí, pero solo dos veces"
+        ],
+        "correcta": "No, se usa una sola vez"
+    },
+    {
+        "pregunta": "¿Se puede usar un preservativo masculino y uno femenino juntos?",
+        "opciones": [
+            "Sí, es mucho más seguro",
+            "Sí, aumenta la eficacia de los mismos casi a un 100%",
+            "No, porque con la fricción es más fácil que se rompa"
+        ],
+        "correcta": "No, porque con la fricción es más fácil que se rompa"
+    },
+    {
+        "pregunta": "¿En qué momento hay que retirar el preservativo del pene?",
+        "opciones": [
+            "Inmediatamente luego de la eyaculación antes que pierda la erección",
+            "Antes de la eyaculación",
+            "Después de la eyaculación, cuando el pene ya perdió la erección"
+        ],
+        "correcta": "Inmediatamente luego de la eyaculación antes que pierda la erección"
+    },
+    {
+        "pregunta": "¿Cuál es la eficacia de los preservativos?",
+        "opciones": [
+            "El 100%",
+            "De 85% a 99%",
+            "El 99%"
+        ],
+        "correcta": "De 85% a 99%"
+    },
+    {
+        "pregunta": "Durante el sexo anal, ¿es necesario utilizar preservativo?",
+        "opciones": [
+            "Sí, porque existe posibilidad de contraer una ITS",
+            "No, porque no existe posibilidad de embarazo",
+            "Sí, porque existe posibilidad de embarazo"
+        ],
+        "correcta": "Sí, porque existe posibilidad de contraer una ITS"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes afirmaciones sobre los preservativos es cierta?",
+        "opciones": [
+            "Son irrompibles",
+            "No se pueden reutilizar",
+            "Son 100% eficaces"
+        ],
+        "correcta": "No se pueden reutilizar"
+    },
+    {
+        "pregunta": "Si una persona usa pastillas anticonceptivas, ¿es necesario utilizar preservativo?",
+        "opciones": [
+            "No, porque no existe posibilidad de un embarazo no deseado",
+            "Sí, porque existe el riesgo de contraer una infección",
+            "No, porque ya no hay riesgo de contraer una infección"
+        ],
+        "correcta": "Sí, porque existe el riesgo de contraer una infección"
+    },
+    {
+        "pregunta": "¿Qué infecciones de transmisión sexual previene el preservativo?",
+        "opciones": [
+            "Sífilis",
+            "VIH",
+            "Gonorrea"
+        ],
+        "correcta": "Todas son correctas"
+    },
+    {
+        "pregunta": "Si una persona no tiene síntomas de una ITS, ¿es necesario que utilice el preservativo?",
+        "opciones": [
+            "No, no hace falta si no tiene una infección",
+            "No, porque la persona presentaría síntomas",
+            "Sí es necesario, ya que hay infecciones asintomáticas"
+        ],
+        "correcta": "Sí es necesario, ya que hay infecciones asintomáticas"
+    }
+]

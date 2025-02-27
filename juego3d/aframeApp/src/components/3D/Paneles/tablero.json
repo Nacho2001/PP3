@@ -1,0 +1,16 @@
+[
+    {
+        "altura": 1.5, 
+        "ancho": 3.5, 
+        "color": "#1a5276", 
+        "posicion": "0 2 -2", 
+        "rotacion": "0 0 0"
+    },
+    { 
+        "texto": "fff", 
+        "posicion": "0 2 -2", 
+        "rotacion": "0 0 0", 
+        "ancho": 2, 
+        "alinacion": "center"
+    }
+]
