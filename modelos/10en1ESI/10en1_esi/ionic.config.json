@@ -1,0 +1,7 @@
+{
+  "name": "10en1_esi",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

@@ -1,0 +1,4 @@
+Este es el proyecto base de ionic, ya tiene instalado Firebase y three.js, 
+pero no lo tiene implementado aún. Para cualquier cambio en el proyecto,
+primero realicenlo en un rama de Github separada, luego lo unimos a la 
+principal.
