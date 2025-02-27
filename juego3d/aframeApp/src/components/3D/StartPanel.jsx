@@ -46,7 +46,7 @@ const data = [panelData, textData];
 };
 StartPanel.propTypes = {
   onFinish: PropTypes.func.isRequired,
-  inicioJuego: PropTypes.func.isRequired
+  //inicioJuego: PropTypes.func.isRequired
 };
 
 export default StartPanel;

@@ -1,54 +1,77 @@
 import Tablero from "./Tableros/Tablero";
 import PanelRespuesta from "./Paneles/PanelRespuesta";
 import PropTypes from 'prop-types';
-import salud_mental from '../preguntas/salud_mental.json';
-import its from '../preguntas/ITS.json';
-import bullying from '../preguntas/bullying.json';
-import anticonceptivos from '../preguntas/anticonceptivos.json';
 import { useState, useEffect } from "react";
 import tablero from './Paneles/tablero.json';
 import panelesRespuesta from './Paneles/panelesRespuesta.json';
+import its from '../preguntas/ITS.json'
+import salud_mental from '../preguntas/salud_mental.json'
+import anticonceptivos from '../preguntas/anticonceptivos.json';
+import bullying from '../preguntas/bullying.json'
+import TextPanel from "./Paneles/TextPanel";
 
 const Juego = (props) => {
     const categoria = props.categoria;
+    const [indice, setIndice] = useState(0);
     const [trivia, setTrivia] = useState([]);
-    const [index, setIndex] = useState(0);
-    const [pregunta, setPregunta] = useState("");
-    tablero[1].texto = pregunta;
-    panelesRespuesta.map((panel, i) => {
-        panel[i].texto = trivia[index].opciones[i]
-    })
+    const [respuestaCorrecta, setRespuestaCorrecta] = useState(null);
+    const [verRespuesta, setVerRespuesta] = useState(false);
 
     useEffect(() => {
-        switch (categoria) {
-            case 'its':
-                setTrivia(its);
-                break
-            case 'anticonceptivos':
-                setTrivia(anticonceptivos);
-                break
-            case 'salud_mental':
-                setTrivia(salud_mental);
-                break
-            case 'bullying':
-                setTrivia(bullying)
-                break;
-            default:
-                break;
+        const cargaPreguntas = async () => {
+            switch (categoria) {
+                case "its":
+                    setTrivia(its);
+                    break;
+                case "salud_mental":
+                    setTrivia(salud_mental);
+                    break;
+                case "anticonceptivos":
+                    setTrivia(anticonceptivos);
+                    break;
+                case "bullying":
+                    setTrivia(bullying);
+                    break;
+                default:
+                    break;
+            }
         }
-        setPregunta(trivia[index].pregunta);
+        cargaPreguntas();
 
-    }, [categoria, trivia,index]);
+    },[categoria])
 
+    useEffect(() => {
+        if(trivia){
+            setVerRespuesta(false);
+            setRespuestaCorrecta(null);
+            
+            // Espera 5 segundos antes de revelar la respuesta correcta
+            const cont1 = setTimeout(() => {
+                setVerRespuesta(true);
+                setRespuestaCorrecta(trivia.correcta)
+            }, 5000);
+
+            // Espera 3 segundos mostrando la respuesta correcta, antes de cambiar a la siguiente
+            const cont2 = setTimeout(() => {
+                // Completar siguiente pregunta
+                siguientePregunta();
+            }, 8000);
+
+            return () => {
+                clearTimeout(cont1);
+                clearTimeout(cont2);
+            }
+        }
+    }, [trivia])
     return(
         <>
-        <Tablero />
-        {   
-            panelesJuego.map((panel, i) => (
-                <PanelRespuesta key={i} panelData={panel} />
-            ))
-        }
-    </>
+            <TextPanel data={tablero}/>
+            {/*   
+                panelesRespuesta.map((panel, i) => (
+                    <PanelRespuesta key={i} panelData={panel} />
+                ))
+            */}
+        </>
     )
 }
 Juego.propTypes = {
