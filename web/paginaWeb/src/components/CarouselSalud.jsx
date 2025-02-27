@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import { AccessibilityContext } from "../context/AccessibilityContext";
 
-const images = import.meta.glob('../assets/salud/*.png', { eager: true });
+const images = import.meta.glob('../assets/salud/*.jpeg', { eager: true });
 
 function CarouselSalud() {
   const { contrast } = useContext(AccessibilityContext);
@@ -13,7 +13,7 @@ function CarouselSalud() {
     <>
     <Carousel>
       {imageList.map((image, index) => {
-        const imageName = imageKeys[index].replace("../assets/salud", '').replace('.png', '');
+        const imageName = imageKeys[index].replace("../assets/salud", '').replace('.jpeg', '');
         return (
           <Carousel.Item key={index} interval={4000}>
             <img

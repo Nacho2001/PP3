@@ -1,29 +1,10 @@
-// import React from 'react';
-// import { useNavigate } from 'react-router-dom';
-// import BackButton from '../components/BackButton';
-
-// function Derechos() {
-//   const navigate = useNavigate();
-
-//   return (
-//     <div className="container text-center mt-4">
-//         {/* Botón para volver atrás */}
-//         <BackButton />
-//         <h1>Derechos y responsabilidades</h1>
-//         <p>Acá se encontrará toda la información sobre lops Derechos y responsabilidades.</p>
-//     </div>
-//   );
-// }
-
-// export default Derechos;
-
-
 import React, { useContext, useEffect } from 'react';
 import { Container, Row, Col, Nav } from 'react-bootstrap';
 import BackButton from '../components/BackButton';
 import CarouselDerechos from '../components/CarouselDerechos'; // Asegúrate de tener este componente
 import { AccessibilityContext } from '../context/AccessibilityContext';
 import derechosData from '../informacionUtil/derechosData';
+import "./pages.css";
 
 function Derechos() {
   const { theme, contrast, simplifiedNav } = useContext(AccessibilityContext);
@@ -81,22 +62,22 @@ function Derechos() {
           {/* Contenido principal */}
           <Col md={9}>
             <div id="que-son">
-              <h2>¿Qué son?</h2>
+              <h2 className="text-primary">¿Qué son?</h2>
               <p>{derechosData[0].descripcion}</p>
             </div>
 
             <div id="derechos-sexuales">
-              <h2>Derechos Sexuales</h2>
+              <h2 className="text-primary">Derechos Sexuales</h2>
               <p>{derechosData[1].descripcion}</p>
             </div>
 
             <div id="derechos-reproductivos">
-              <h2>Derechos Reproductivos</h2>
+              <h2 className="text-primary">Derechos Reproductivos</h2>
               <p>{derechosData[2].descripcion}</p>
             </div>
 
             <div id="cuales-son">
-              <h2>¿Cuáles son los derechos?</h2>
+              <h2 className="text-primary">¿Cuáles son los derechos?</h2>
               <p>Según la Federación Internacional de Planificación Familiar (IPPF), se incluyen:</p>
               <ul>
                 {derechosData[3].objetivos.map((derecho, index) => (
@@ -106,7 +87,7 @@ function Derechos() {
             </div>
 
             <div id="marco-legislativo">
-              <h2>Marco legislativo en Argentina</h2>
+              <h2 className="text-primary">Marco legislativo en Argentina</h2>
               <p>{derechosData[4].descripcion}</p>
               <p>Leyes nacionales relevantes incluyen:</p>
               <ul>
@@ -120,7 +101,7 @@ function Derechos() {
             </div>
 
             <div id="importancia-esi">
-              <h2>Importancia de la Educación Sexual Integral (ESI)</h2>
+              <h2 className="text-primary">Importancia de la Educación Sexual Integral (ESI)</h2>
               <p>{derechosData[5].descripcion}</p>
               <ul>
                 {derechosData[5].objetivos.map((objetivo, index) => (
@@ -130,7 +111,7 @@ function Derechos() {
             </div>
 
             <div id="conclusion">
-              <h2>Conclusión</h2>
+              <h2 className="text-primary">Conclusión</h2>
               <p>
                 Los Derechos Sexuales y Reproductivos son esenciales para garantizar la autonomía de las personas y el acceso a una vida plena y saludable. Es fundamental que el Estado y las instituciones educativas cumplan con su responsabilidad de asegurar estos derechos a todas las personas sin discriminación, promoviendo la educación, el acceso a la salud y la equidad de género.
               </p>
