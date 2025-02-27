@@ -1,0 +1,218 @@
+[
+    {
+        "pregunta": "¿Qué puedo hacer para parar el bullying?",
+        "opciones": [
+            "Decirle al maestro o a algún adulto de la escuela",
+            "No callarse y no ser indiferente",
+            "Junto a otros compañeros, decirle al agresor que pare"
+        ],
+        "correcta": "No callarse y no ser indiferente"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes acciones NO es una forma de apoyar a alguien que ha sido víctima de bullying?",
+        "opciones": [
+            "Escuchar activamente y mostrar empatía hacia la persona afectada",
+            "Ofrecerse a acompañar a la persona afectada a buscar ayuda",
+            "Culpar a la víctima por provocar el bullying"
+        ],
+        "correcta": "Culpar a la víctima por provocar el bullying"
+    },
+    {
+        "pregunta": "¿A qué se denomina bullying?",
+        "opciones": [
+            "Es un abuso que causa dolor",
+            "Una broma",
+            "Un pasatiempo"
+        ],
+        "correcta": "Es un abuso que causa dolor"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes acciones NO es una forma de ciberbullying en las redes sociales?",
+        "opciones": [
+            "Enviar mensajes de odio y amenazas a alguien en línea",
+            "Crear perfiles falsos para acosar a alguien",
+            "Compartir información personal con amigos de confianza"
+        ],
+        "correcta": "Compartir información personal con amigos de confianza"
+    },
+    {
+        "pregunta": "¿A qué se denomina ciberbullying?",
+        "opciones": [
+            "Un insulto en inglés",
+            "Un método anticonceptivo",
+            "Acoso a través de las redes sociales"
+        ],
+        "correcta": "Acoso a través de las redes sociales"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes afirmaciones es cierta sobre el papel de los espectadores en el bullying?",
+        "opciones": [
+            "No tienen responsabilidad de intervenir en situaciones de bullying",
+            "Pueden ser una parte activa en la prevención y resolución del bullying",
+            "Siempre apoyan y alientan al agresor en sus acciones"
+        ],
+        "correcta": "Pueden ser una parte activa en la prevención y resolución del bullying"
+    },
+    {
+        "pregunta": "¿Cuáles son algunas de las consecuencias del bullying?",
+        "opciones": [
+            "Bajas calificaciones",
+            "Abandonar la escuela",
+            "Sentir miedo"
+        ],
+        "correcta": "Bajas calificaciones"
+    },
+    {
+        "pregunta": "¿Qué se puede hacer para prevenir el ciberbullying en las redes sociales?",
+        "opciones": [
+            "Configurar las opciones de privacidad para controlar quién puede ver y comentar las publicaciones",
+            "Compartir información personal en línea para ganar popularidad",
+            "Participar en comportamientos agresivos en línea para defenderse"
+        ],
+        "correcta": "Configurar las opciones de privacidad para controlar quién puede ver y comentar las publicaciones"
+    },
+    {
+        "pregunta": "¿Cuál es una forma de fomentar la empatía y el respeto entre los jóvenes para prevenir el bullying?",
+        "opciones": [
+            "Promover el individualismo y la competencia en lugar de la colaboración",
+            "Estigmatizar a aquellos que son diferentes y no encajan en la norma",
+            "Fomentar la comprensión de las diferencias y celebrar la diversidad"
+        ],
+        "correcta": "Fomentar la comprensión de las diferencias y celebrar la diversidad"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes afirmaciones es cierta sobre las consecuencias legales del ciberbullying?",
+        "opciones": [
+            "Puede llevar a acciones legales, como cargos criminales o demandas civiles",
+            "Solo los agresores enfrentan consecuencias legales por su comportamiento",
+            "Nunca tiene consecuencias legales"
+        ],
+        "correcta": "Puede llevar a acciones legales, como cargos criminales o demandas civiles"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes acciones es un ejemplo de ciberbullying?",
+        "opciones": [
+            "Ignorar un mensaje de texto",
+            "Publicar rumores falsos sobre alguien en línea",
+            "Enviar un correo electrónico amistoso"
+        ],
+        "correcta": "Publicar rumores falsos sobre alguien en línea"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes acciones NO se considera bullying?",
+        "opciones": [
+            "Ayudar a alguien que está pasando por un momento difícil",
+            "Burlarse repetidamente de alguien por su apariencia física",
+            "Discriminar a alguien por su modo de ser"
+        ],
+        "correcta": "Ayudar a alguien que está pasando por un momento difícil"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes acciones NO es una forma de bullying físico?",
+        "opciones": [
+            "Empujar y golpear a alguien",
+            "Romper o robar las pertenencias de alguien",
+            "Difundir rumores falsos sobre alguien en línea"
+        ],
+        "correcta": "Difundir rumores falsos sobre alguien en línea"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes afirmaciones es cierta sobre el impacto del bullying?",
+        "opciones": [
+            "Puede afectar negativamente la salud mental y emocional",
+            "Solo ocurre en entornos escolares",
+            "No tiene consecuencias negativas para la persona afectada"
+        ],
+        "correcta": "Puede afectar negativamente la salud mental y emocional"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes afirmaciones es cierta sobre el ciberbullying?",
+        "opciones": [
+            "Solo afecta a los jóvenes, no a los adultos",
+            "Solo ocurre en computadoras, no en teléfonos móviles",
+            "Puede tener consecuencias graves para la salud mental de una persona"
+        ],
+        "correcta": "Puede tener consecuencias graves para la salud mental de una persona"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes afirmaciones es cierta sobre los roles en el bullying?",
+        "opciones": [
+            "Hay múltiples roles en el bullying, como el agresor, la víctima y los espectadores",
+            "Solo hay dos roles en el bullying: la víctima y el agresor",
+            "Solo hay un rol en el bullying: el agresor"
+        ],
+        "correcta": "Hay múltiples roles en el bullying, como el agresor, la víctima y los espectadores"
+    },
+    {
+        "pregunta": "¿Cuál es una estrategia efectiva para prevenir el ciberbullying?",
+        "opciones": [
+            "Compartir información personal en línea",
+            "Ignorar los mensajes de odio en las redes sociales",
+            "Denunciar el ciberbullying a las autoridades correspondientes"
+        ],
+        "correcta": "Denunciar el ciberbullying a las autoridades correspondientes"
+    },
+    {
+        "pregunta": "¿Qué se puede hacer para ayudar a alguien que está siendo víctima de bullying?",
+        "opciones": [
+            "Apoyar y consolar a la persona afectada",
+            "Unirse a los agresores para evitar convertirse en una víctima",
+            "Ignorar la situación y esperar a que se solucione por sí sola"
+        ],
+        "correcta": "Apoyar y consolar a la persona afectada"
+    },
+    {
+        "pregunta": "¿Qué es el acoso verbal en el contexto del bullying?",
+        "opciones": [
+            "Excluir a alguien de un grupo intencionalmente",
+            "Maltratar a alguien con violencia física",
+            "Utilizar insultos y palabras ofensivas para atacar a alguien"
+        ],
+        "correcta": "Utilizar insultos y palabras ofensivas para atacar a alguien"
+    },
+    {
+        "pregunta": "¿Qué es la difamación en el contexto del ciberbullying?",
+        "opciones": [
+            "Compartir imágenes íntimas de alguien sin su consentimiento",
+            "Publicar rumores falsos sobre alguien en línea para dañar su reputación",
+            "Enviar mensajes amenazantes a través de las redes sociales"
+        ],
+        "correcta": "Publicar rumores falsos sobre alguien en línea para dañar su reputación"
+    },
+    {
+        "pregunta": "¿Cuál es una forma de apoyar la prevención del bullying en las escuelas?",
+        "opciones": [
+            "Excluir a los estudiantes que han sido acosados de las actividades escolares",
+            "Promover programas de educación y conciencia sobre el bullying",
+            "Ignorar los casos de bullying y dejar que los niños lo resuelvan por sí mismos"
+        ],
+        "correcta": "Promover programas de educación y conciencia sobre el bullying"
+    },
+    {
+        "pregunta": "¿Qué se puede hacer para protegerse del ciberbullying?",
+        "opciones": [
+            "Responder con agresión y confrontación cuando se es víctima de ciberbullying",
+            "Compartir contraseñas personales con amigos de confianza",
+            "Ser selectivo con la información personal compartida en línea"
+        ],
+        "correcta": "Ser selectivo con la información personal compartida en línea"
+    },
+    {
+        "pregunta": "¿Cuál es una forma de prevenir el bullying y el ciberbullying?",
+        "opciones": [
+            "Ser consciente de los demás y tratar a todas las personas con respeto",
+            "Participar en conductas agresivas para defenderse",
+            "Compartir información personal en línea"
+        ],
+        "correcta": "Ser consciente de los demás y tratar a todas las personas con respeto"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes acciones NO es una forma de ciberbullying?",
+        "opciones": [
+            "Crear un perfil falso para acosar a alguien en línea",
+            "Enviar mensajes de odio a través de las redes sociales",
+            "Jugar videojuegos en línea con amigos"
+        ],
+        "correcta": "Jugar videojuegos en línea con amigos"
+    }
+]
