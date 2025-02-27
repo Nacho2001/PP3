@@ -42,14 +42,7 @@ export default function Navbars() {
                 </Nav.Link>
                 <Nav.Link
                   as={Link}
-                  to="/anticonceptivos"
-                  style={linkStyleColor}
-                >
-                  Articulos
-                </Nav.Link>
-                <Nav.Link
-                  as={Link}
-                  to="/anticonceptivos"
+                  to="/sobreNosotros"
                   style={linkStyleColor}
                 >
                   Sobre Nosotros

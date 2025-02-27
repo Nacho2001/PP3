@@ -6,6 +6,7 @@ import Anticonceptivos from '../pages/Anticonceptivos';
 import Derechos from '../pages/Derechos';
 import Navbars from '../components/Navbar';
 import BasicFooter from '../components/Footer';
+import SobreNosotros from '../pages/SobreNosotros';
 
 function Layout() {
   return (
@@ -28,6 +29,7 @@ function AppRoutes() {
         <Route path="salud" element={<Salud />} />
         <Route path="anticonceptivos" element={<Anticonceptivos />} />
         <Route path="derechos" element={<Derechos />} />
+        <Route path="sobreNosotros" element={<SobreNosotros />} />
       </Route>
     </Routes>
   );
