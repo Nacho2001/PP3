@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+	font-family: 'Inter', 'Roboto', sans-serif;
+}
+
+#question {
+	color: #fff;
+	text-shadow: 1.8px 1px 4px #000;
+}
+
+#explanation {
+	color: #fff;
+	text-shadow: 0 1px 6px #000;
+}
+
+.container {
+	border: transparent;
+}
+
+#answerParent {
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+#answerParent div button {
+	background: white;
+	color: black;
+}
+
+.container {
+	text-align: center;
+}
+
+.infoBtn {
+	color: #000 !important;
+	background: #9DFFE5;
+	box-shadow: 0 2px 2px #000;
+}
